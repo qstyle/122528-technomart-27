@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Dmitry Ordin](https://up.htmlacademy.ru/htmlcss/27/user/122528).
-* Наставник: [Ярослав  Косович](https://htmlacademy.ru/profile/id703025)
+* Наставник: [Ярослав  Косович]  (https://htmlacademy.ru/profile/id703025)
 
 ---
 
