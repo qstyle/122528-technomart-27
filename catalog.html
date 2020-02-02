@@ -11,10 +11,11 @@
   <header>
     <div>
       <a href="/"><img src="img/logo/logo.png" alt="Логотип"></a>
-      <p><input type="search" placeholder="Поиск по сайту">
-        <p><a href="#">Закладки</a></p>
-        <p><a href="#">Корзина</a></p>
-        <p><a href="#">Оформить заказ</a></p>
+      <p><label for="search">Поиск:</label>
+        <input type="search" placeholder="Поиск по сайту"></p>
+      <p><a href="#">Закладки</a></p>
+      <p><a href="#">Корзина</a></p>
+      <p><a href="#">Оформить заказ</a></p>
     </div>
     <section>
       <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
@@ -35,18 +36,17 @@
         <li><a href="#">Контакты</a></li>
       </ul>
     </nav>
-    <div>
+  </header>
+  <main>
+    <nav aria-label="breadcrumb">
       <ul>
         <li> <a href="#">КАТАЛОГ</a></li>
         <li> <a href="#">ИНТСРУМЕНТ</a></li>
         <li> <a href="#">ПЕРФОРАТОРЫ</a></li>
       </ul>
-    </div>
-  </header>
-  <main>
+    </nav>
     <h1>ПЕРФОРАТОРЫ</h1>
     <aside>
-
       <h2>ПРОИЗВОДИТЕЛИ:</h2>
       <ul>
         <li><a href="#"><img src="img/icon/checkbox-on.svg" alt="чекбокс">BOSCH</a></li>
@@ -97,12 +97,12 @@
       </section>
       <section>
         <a href="#"><img src="img/picture/6000.jpg" alt="Перфоратор BOSCH BFG 6000"></a>
-          <img src="img/icon/new-flag.png" alt="Новый товар">
-          <a href="#">
-            <h4>Перфоратор BOSCH BFG 6000</h4>
-          </a>
-          <p>30500 Р.</p>
-          <p>25500 Р.</p>
+        <img src="img/icon/new-flag.png" alt="Новый товар">
+        <a href="#">
+          <h4>Перфоратор BOSCH BFG 6000</h4>
+        </a>
+        <p>30500 Р.</p>
+        <p>25500 Р.</p>
       </section>
       <section>
         <a href="#"><img src="img/picture/2000.jpg" alt="Перфоратор BOSCH BFG 2000"></a>
@@ -122,11 +122,11 @@
       </section>
       <section>
         <a href="#"><img src="img/picture/6000.jpg" alt="Перфоратор BOSCH BFG 6000"></a>
-          <a href="#">
-            <h4>Перфоратор BOSCH BFG 6000</h4>
-          </a>
-          <p>30500 Р.</p>
-          <p>25500 Р.</p>
+        <a href="#">
+          <h4>Перфоратор BOSCH BFG 6000</h4>
+        </a>
+        <p>30500 Р.</p>
+        <p>25500 Р.</p>
       </section>
       <section>
         <a href="#"><img src="img/picture/2000.jpg" alt="Перфоратор BOSCH BFG 2000"></a>
@@ -161,9 +161,9 @@
     <section>
       <p>© 2010–2019 Компания «Техномарт»Все права защищены</p>
       <ul>
-        <li><a href=""><img src="img/icon/vk-icon.svg" alt="ВК"></a></li>
-        <li><a href=""><img src="img/icon/fb-icon.svg" alt="Фэйсбук"></a></li>
-        <li><a href=""><img src="img/icon/insta-icon.svg" alt="Инстаграм"></a></li>
+        <li><a href=""><img src="img/icon/vk-icon.svg" aria-label="Вконтакте"></a></li>
+        <li><a href=""><img src="img/icon/fb-icon.svg" aria-label="Фэйсбук"></a></li>
+        <li><a href=""><img src="img/icon/insta-icon.svg" aria-label="Инстаграм"></a></li>
       </ul>
       <p>Обратная связь: <a href="mailto:mail@htmlacademy.ru ">mail@htmlacademy.ru</a></p>
       <p>Разработано-<a href="https://htmlacademy.ru/">htmlacademy.ru</a> </p>
