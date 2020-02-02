@@ -13,9 +13,9 @@
       <a href="/"><img src="img/logo/logo.png" alt="Логотип"></a>
       <p><label for="search"><img src="img/icon/icon-search.svg" alt="Поиск">Поиск:</label>
         <input type="search" placeholder="Поиск по сайту" id="search"></p>
-        <p><a href="#"><img src="img/icon/icon-bookmark.svg" alt="Закладки">Закладки</a></p>
-        <p><a href="#"><img src="img/icon/cart-icon.svg" alt="Поиск">Корзина</a></p>
-        <p><a href="#">Оформить заказ</a></p>
+      <p><a href="#"><img src="img/icon/icon-bookmark.svg" alt="Закладки">Закладки</a></p>
+      <p><a href="#"><img src="img/icon/cart-icon.svg" alt="Поиск">Корзина</a></p>
+      <p><a href="#">Оформить заказ</a></p>
     </div>
     <section>
       <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
@@ -48,18 +48,17 @@
     <h1>ПЕРФОРАТОРЫ</h1>
     <aside>
       <h2>ПРОИЗВОДИТЕЛИ:</h2>
-      <ul>
-        <li><a href="#"><img src="img/icon/checkbox-on.svg" alt="чекбокс">BOSCH</a></li>
-        <li><a href="#"><img src="img/icon/checkbox-off.svg" alt="чекбокс">ИНТЕРСКОЛ</a></li>
-        <li><a href="#"><img src="img/icon/checkbox-on.svg" alt="чекбокс">MAKITA</a></li>
-        <li><a href="#"><img src="img/icon/checkbox-off.svg" alt="чекбокс">DEWALT</a></li>
-        <li><a href="#"><img src="img/icon/checkbox-off.svg" alt="чекбокс">HITACHI</a></li>
-      </ul>
-      <h3>ПИТАНИЕ</h3>
-      <ul>
-        <li><img src="img/icon/radio-on.svg" alt="чекбокс"><a href="#">АККАМУЛЯТОРНЫЕ</a></li>
-        <li><img src="img/icon/radio-off.svg" alt="чекбокс"><a href="#">СЕТЬЕВЫЕ</a></li>
-      </ul>
+      <form action="index.html" method="post">
+        <label> <input type="checkbox" name="bosch" value="bosch">BOSCH</label>
+        <label> <input type="checkbox" name="interskol" value="interskol">ИНТЕРСКОЛ</label>
+        <label> <input type="checkbox" name="makita" value="makita">MAKITA</label>
+        <label> <input type="checkbox" name="dewalt" value="dewalt">DEWALT</label>
+        <label> <input type="checkbox" name="hitachi" value="hitachi">HITACHI</label>
+        <h3>ПИТАНИЕ</h3>
+        <label> <input type="radio" name="TYPE" value="battery">АККАМУЛЯТОРНЫЕ </label>
+        <label> <input type="radio" name="TYPE" value="non_battery">СЕТЬЕВЫЕ </label>
+        <input type="submit" name="Показать" value="Показать">
+      </form>
     </aside>
     <section>
       <h3>Выбор перфораторов</h3>
@@ -135,6 +134,11 @@
         </a>
         <p>12500 Р.</p>
       </section>
+    </section>
+    <section>
+      <h3>Товар добавлен в корзину</h3>
+      <a href="#">ОФОРМИТЬ ЗАКАЗ</a>
+      <a href="#">ПРОДОЛЖИТЬ ПОКУПКИ</a>
     </section>
   </main>
   <footer>
