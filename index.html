@@ -96,15 +96,15 @@
       <p>Разработано-<a href="https://htmlacademy.ru/">htmlacademy.ru</a> </p>
     </section>
   </footer>
-  <section>
+  <div role="dialog">
     <h2 class="visually-hidden">Обратная связь</h2>
     <form action="index.html" method="post">
       <label>ВАШЕ ИМЯ:<input type="text" name="name" placeholder="Имя Фамилия"></label>
       <label>АДРЕС ЭЛЕКТРОННОЙ ПОЧТЫ: <input type="email" name="email" placeholder="email@example.com"></label>
-      <label>Текст письма: <input type="text" name="mail_text" placeholder="В свободной форме"></label>
-      <button type="submit" >ОТПРАВИТЬ</button>
+      <label>Текст письма: <textarea name="mail_text" rows="8" placeholder="В свободной форме"></textarea></label>
+      <button type="submit">ОТПРАВИТЬ</button>
+      <button type="button" name="close"><img src="img/icon/form-close.svg" alt="Закрыть"></button>
     </form>
-  </section>
+  </div>
 </body>
-
 </html>
