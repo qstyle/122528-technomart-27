@@ -4,19 +4,20 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 
 <body style="background-color: grey;">
   <!--цвет для body временно-->
-  <header>
-    <div>
-      <a href="/"><img src="img/logo/logo.png" alt="Логотип"></a>
-      <p><label for="search"><img src="img/icon/icon-search.svg" alt="Поиск">Поиск:</label>
+  <header class="header">
+    <div class="top_header">
+      <a href="/" class="logo"><img src="img/logo/logo.png" alt="Логотип" class="img_logo"></a>
+      <p class="search_header"><label for="search"><img src="img/icon/icon-search.svg" alt="Поиск">Поиск:</label>
         <input type="search" placeholder="Поиск по сайту" id="search"></p>
-      <p><a href="#"><img src="img/icon/icon-bookmark.svg" alt="Закладки">Закладки</a></p>
-      <p><a href="#"><img src="img/icon/cart-icon.svg" alt="Поиск">Корзина</a></p>
-      <p><a href="#">Оформить заказ</a></p>
+      <p><a href="#"><img src="img/icon/icon-bookmark.svg" alt="Закладки"> Закладки </a></p>
+      <p><a href="#"><img src="img/icon/cart-icon.svg" alt="Поиск"> Корзина </a></p>
+      <p class="buy"><a href="#">Оформить заказ</a></p>
     </div>
     <div>
       <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
@@ -25,8 +26,8 @@
       <a href="#"><img src="img/icon/icon-login.svg" alt="Войти">Войти</a>
       <a href="#">Регистрация</a>
     </div>
-    <nav>
-      <ul>
+    <nav class="nav_back">
+      <ul class="nav">
         <li><a href="#">Главная</a></li>
         <li><a href="#">Компания</a></li>
         <li><a href="#">Каталог</a></li>
