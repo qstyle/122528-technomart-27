@@ -12,7 +12,8 @@
 <body>
   <!--цвет для body временно-->
   <header class="header">
-    <div class="top_header">
+    <div class="top_header_bg">
+      <div class="top_header content">
       <a href="/" class="logo logo_top"><img src="img/logo/logo.png" alt="Логотип" class="img_logo_top"></a>
       <p class="search_header"><label for="search"><img src="img/icon/icon-search.svg" alt="Поиск">Поиск:</label>
         <input type="search" placeholder="Поиск по сайту" id="search" class="search_window"></p>
@@ -20,18 +21,21 @@
       <p><a href="#"class="header_menu"><img src="img/icon/cart-icon.svg" alt="Поиск"> Корзина </a></p>
       <p><a href="#"class="header_menu buy">Оформить заказ</a></p>
     </div>
-    <div class="header_mid">
+    </div>
+    <div class="header_mid content">
       <p class="header-text">Интернет-магазин строительных материалов  и инструментов для ремонта</p>
       <div class="header_an">
 
           <p class="header_nuber"><a href="tel:+7(812)555-05-55" class="number_n" ><img src="img/icon/icon-phone.svg" alt="Телефон" class="img_nm">       +7 (812) 555-05-55</a> <br>
-      <address class="header_address"> Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address></p>
-    </div class="btn_lr">
-      <a href="#" class="btn_login"><img src="img/icon/icon-login.svg" alt="Войти">Войти</a>
-      <a href="#" class="btn_registr">Регистрация</a>
+      <address class="header_address"> г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address></p>
     </div>
+    <div  class="btn_lr">
+      <a href="#" class="btn_login btn_login_1"><img src="img/icon/icon-login.svg" alt="Войти">Войти</a>
+      <a href="#" class="btn_login">Регистрация</a>
+    </div>
+  </div>
     <nav>
-      <ul class="nav">
+      <ul class="nav content">
         <li><a href="#" class="nav_menu">Главная</a></li>
         <li><a href="#" class="nav_menu">Компания</a></li>
         <li><a href="#" class="nav_menu">Каталог</a></li>
@@ -42,9 +46,9 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main class=" main">
     <h1 class="visually-hidden">Магазин "ТЕХНОМАРТ" </h1>
-    <article class="bot_info">
+    <article class="bot_info content ">
       <h2 class="visually-hidden">О КОМПАНИИ</h2>
       <section >
         <h3 class="bot_left_inf h3_style">Компания "ТЕХНОМАРТ"</h3>
@@ -68,7 +72,8 @@
     </article>
   </main>
   <footer>
-    <section class="footer_top" >
+    <div class="footer_top_bg">
+    <section class="footer_top content" >
       <div class="footer_top_left">
       <h2 class="visually-hidden">Как нас найти</h2>
       <a href="/" class="logo logo_bot"><img src="img/logo/logo.png" alt="Логотип" class="img_logo_bot"></a>
@@ -93,9 +98,13 @@
         <li><a href="#" class="footer_nav_link footer_nav_link_2">Инструмент</a></li>
         <li><a href="#" class="footer_nav_link footer_nav_link_2">Спецпредложения</a></li>
       </ul>
+      </div>
     </div>
     </section>
-    <section class="footer_bot">
+    <div class="footer_bot_bg">
+
+
+    <section class="footer_bot content">
       <h2 class="visually-hidden">Как с нами связаться</h2>
       <p class="company_inf">© 2010–2019 Компания «Техномарт»Все права защищены</p>
       <ul class="social_networks">
@@ -111,6 +120,7 @@
       <p class="feed_text">Разработано-</p>
       <p ><a href="https://htmlacademy.ru/" class="feed_mail">htmlacademy.ru</a> </p>
 </div>
+</div>
     </section>
   </footer>
   <div role="dialog">
@@ -122,6 +132,7 @@
       <button type="submit">ОТПРАВИТЬ</button>
       <button type="button" name="close"><img src="img/icon/form-close.svg" alt="Закрыть окно"></button>
     </form>
+
   </div>
 </body>
 </html>
