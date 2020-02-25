@@ -21,7 +21,7 @@
                 d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z" />
             </svg>
           </div>
-          <input type="search" name="search" value="Поиск:" class="search_input">
+          <input type="search" name="search" placeholder="Поиск:" class="search_input search_text_1">
         </div>
         <a href="#" class="header_menu">
           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
@@ -47,8 +47,16 @@
           <address class="header_address"> г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
       </div>
       <div class="btn_lr">
-        <a href="#" class="btn_login btn_login_1"><img src="img/icon/icon-login.svg" alt="Войти">Войти</a>
-        <a href="#" class="btn_login">Регистрация</a>
+        <a href="#" class="btn_login btn_login_1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" class="btn_login_img">
+            <path d="M14.875 8.5L6 0v6H0v5h6v6z" />
+            <path d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z" />
+          </svg>
+          <p class="btn_login_text">Войти</p>
+        </a>
+        <a href="#" class="btn_login">
+          <p class="btn_login_text_2">Регистрация</p>
+        </a>
       </div>
     </div>
     <nav>
@@ -95,21 +103,26 @@
         </div>
       </div>
       <div class="card_block_bot">
-        <div class="banner">
-          <div class="slide">
+        <div class="slide">
+          <div class="banner_1">
             <h2 class="banner_h2">ДРЕЛИ</h2>
             <p class="banner_text_2">Соседям на радость!</p>
             <a href="#" class=" btn banner_but">ОТКРЫТЬ КАТАЛОГ</a>
-            <div class="slider_right">
-              <img src="img/icon/icon-right.svg" alt="стрелка вперед">
-            </div>
-            <div class="slider_left">
-              <img src="img/icon/icon-left.svg" alt="стрелка назад">
-            </div>
-            <div class="nav_slider">
-              <a href="#" class="nav_but_left"></a>
-              <a href="#" class="nav_but_right"></a>
-            </div>
+          </div>
+          <div class="banner_2">
+            <h2 class="banner_h2">ПЕРФОРАТОРЫ</h2>
+            <p class="banner_text_2">Настоящие мужские игрушки</p>
+            <a href="#" class=" btn banner_but">ОТКРЫТЬ КАТАЛОГ</a>
+          </div>
+          <div class="nav_slider">
+            <a href="#" class="slider_nav_but_left"></a>
+            <a href="#" class="slider_nav_but_right"></a>
+          </div>
+          <div class="slider_right">
+            <a href="#"> <img src="img/icon/icon-right.svg" alt="стрелка вперед"></a>
+          </div>
+          <div class="slider_left">
+            <a href="#"> <img src="img/icon/icon-left.svg" alt="стрелка назад"></a>
           </div>
         </div>
         <div class="cards_bot_right">
@@ -138,7 +151,6 @@
     <section class="content popular">
       <div class="popular_text">
         <h2 class="popular_h2">ПОПУЛЯРНЫЕ ТОВАРЫ:</h2>
-
         <div class="btn popular_btn">
           <a href="#" class="btn popular_btn ">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
         </div>
@@ -147,6 +159,14 @@
         <section class="bosch_card">
           <div class="bosch_card_img">
             <a href="#"><img src="img/picture/9000.jpg" alt="Перфоратор BOSCH BFG 9000"></a>
+          </div>
+          <div class="bosch_card_link">
+            <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img">
+                <circle cx="4.5" cy="13.5" r="1.5" />
+                <circle cx="12.5" cy="13.5" r="1.5" />
+                <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+              </svg>КУПИТЬ</a>
+            <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
           </div>
           <div class="bosch_card_name">
             <a href="#">
@@ -164,6 +184,14 @@
           <div class="bosch_card_img">
             <a href="#"><img src="img/picture/3000.jpg" alt="Перфоратор BOSCH BFG 3000"></a>
           </div>
+          <div class="bosch_card_link">
+            <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img">
+                <circle cx="4.5" cy="13.5" r="1.5" />
+                <circle cx="12.5" cy="13.5" r="1.5" />
+                <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+              </svg>КУПИТЬ</a>
+            <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
+          </div>
           <div class="bosch_card_name">
             <a href="#">
               <h4 class="bosch_card_name_text">Перфоратор BOSCH <br> BFG 3000</h4>
@@ -180,6 +208,14 @@
           <div class="bosch_card_img">
             <a href="#"><img src="img/picture/6000.jpg" alt="Перфоратор BOSCH BFG 6000"></a>
           </div>
+          <div class="bosch_card_link">
+            <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img">
+                <circle cx="4.5" cy="13.5" r="1.5" />
+                <circle cx="12.5" cy="13.5" r="1.5" />
+                <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+              </svg>КУПИТЬ</a>
+            <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
+          </div>
           <div class="bosch_card_name">
             <a href="#">
               <h4 class="bosch_card_name_text">Перфоратор BOSCH <br> BFG 6000</h4>
@@ -195,6 +231,14 @@
         <section class="bosch_card">
           <div class="bosch_card_img">
             <a href="#"><img src="img/picture/2000.jpg" alt="Перфоратор BOSCH BFG 2000"></a>
+          </div>
+          <div class="bosch_card_link">
+            <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img">
+                <circle cx="4.5" cy="13.5" r="1.5" />
+                <circle cx="12.5" cy="13.5" r="1.5" />
+                <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+              </svg>КУПИТЬ</a>
+            <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
           </div>
           <div class="bosch_card_name">
             <a href="#">
@@ -248,23 +292,24 @@
           <p class="service_text_p">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         </div>
         <div class="slider_block content">
+          <div class="slider-nav_shadow"> <img src="img/picture/shadow.png" alt="оформление списка"> </div>
           <ul class="slider_nav">
-            <li class="slider_nav_1"><a href="#">Доставка</a></li>
-            <li class="slider_nav_1"><a href="#">Гарантия</a></li>
-            <li class="slider_nav_1"><a href="#">Кредит</a></li>
+            <li class="slider_nav_1"><a href="#" class="slider_nav_1">Доставка</a></li>
+            <li class="slider_nav_1"><a href="#" class="slider_nav_1">Гарантия</a></li>
+            <li class="slider_nav_1"><a href="#" class="slider_nav_1">Кредит</a></li>
           </ul>
           <div class="service_slider ">
             <h2 class="service_slider_h2">ДОСТАВКА</h2>
             <p class="service_slider_text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
             <img src="img/picture/delivery.png" alt="Картинка доставки" class="service_slider_img">
           </div>
-          <div class="service_slider service_slider_2 ">
+          <div class="service_slider service_slider_hidden ">
             <h2 class="service_slider_h2">ГАРАНТИЯ</h2>
             <p class="service_slider_text"> Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж
               восстановите как-нибудь сами.</p>
             <img src="img/picture/guarantee.png" alt="Картинка доставки" class="service_slider_img">
           </div>
-          <div class="service_slider  service_slider_3">
+          <div class="service_slider  service_slider_hidden">
             <h2 class="service_slider_h2">КРЕДИТ</h2>
             <p class="service_slider_text">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
             <img src="img/picture/credit.png" alt="Картинка доставки" class="service_slider_img">
@@ -281,9 +326,9 @@
         <p class="text_bot_2">Мы можем доставить ваш товар в самые отдаленные точки России! <br>
           Техномарт работает со многими транспортными компаниями: </p>
         <ul class="delivery">
-          <li>Деловые линии</li>
-          <li>Автотрейдинг</li>
-          <li>ЖелДорЭкспидиция</li>
+          <li class="delivery_li">Деловые линии</li>
+          <li class="delivery_li">Автотрейдинг</li>
+          <li class="delivery_li">ЖелДорЭкспидиция</li>
         </ul>
         <a href="#" class="btn btn_left_inf">ПОДРОБНЕЕ О КОМПАНИИ</a>
       </section>
@@ -343,14 +388,32 @@
       </section>
     </div>
   </footer>
-  <div role="dialog">
+  <div role="dialog" class="feedback_window ">
     <h2 class="visually-hidden">Обратная связь</h2>
-    <form action="index.html" method="post">
-      <label>ВАШЕ ИМЯ:<input type="text" name="name" placeholder="Имя Фамилия"></label>
-      <label>АДРЕС ЭЛЕКТРОННОЙ ПОЧТЫ: <input type="email" name="email" placeholder="email@example.com"></label>
-      <label>Текст письма: <textarea name="mail_text" rows="8" placeholder="В свободной форме"></textarea></label>
-      <button type="submit">ОТПРАВИТЬ</button>
-      <button type="button" name="close"><img src="img/icon/form-close.svg" alt="Закрыть окно"></button>
+    <form action="index.html" method="post" class="feedback_form ">
+      <div class="feedback_content">
+        <div class="feedback_ne">
+          <div class="feedback_name">
+            <label class="feedback_font">Ваше имя:<input type="text" name="name" placeholder="Имя Фамилия" class="input_feedback"></label>
+          </div>
+          <div class="feedback_emal">
+            <label class="feedback_font">Ваш e-mail: <input type="email" name="email" placeholder="email@example.com" class="input_feedback"></label>
+          </div>
+        </div>
+        <div class="feedback_mail_text">
+          <label class="feedback_font">Текст письма: <textarea name="mail_text" rows="8" placeholder="В свободной форме" class="feedback_mail_text_area"></textarea></label>
+        </div>
+      </div>
+      <div class="feedback_submit_area">
+        <div class="feedback_content">
+          <button type="submit" class="btn feedback_submit  ">ОТПРАВИТЬ</button>
+        </div>
+      </div>
+      <button type="button" name="close" class="feedback_btn_close"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+          <path fill="#ee3643"
+            d="M13.273 10.5l7.422-7.422a1.003 1.003 0 0 0 0-1.414L19.336.305a1.003 1.003 0 0 0-1.414 0L10.5 7.727 3.078.305a1.003 1.003 0 0 0-1.414 0L.305 1.664a1.003 1.003 0 0 0 0 1.414L7.727 10.5.306 17.922a1.003 1.003 0 0 0 0 1.414l1.359 1.359a1.003 1.003 0 0 0 1.414 0l7.422-7.422 7.422 7.422a1.003 1.003 0 0 0 1.414 0l1.359-1.359a1.003 1.003 0 0 0 0-1.414z" />
+        </svg>
+      </button>
     </form>
   </div>
 </body>
