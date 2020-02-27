@@ -14,15 +14,13 @@
     <div class="top_header_bg">
       <div class="top_header content">
         <a href="/" class="logo logo_top"><img src="img/logo/logo.png" alt="Логотип" class="img_logo_top"></a>
-        <div class="search">
-          <div class="search_text">
-            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" class="search_img">
-              <path fill="rgba(255, 255, 255, 0.1);"
-                d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z" />
+        <label class="search">
+          <input type="search" placeholder="Поиск:" class="search_input">
+          <svg xmlns="http://www.w3.org/2000/svg" class="search_img" enable-background="new 0 0 515.558 515.558" height="512" viewBox="0 0 515.558 515.558" width="512">
+            <path
+              d="m378.344 332.78c25.37-34.645 40.545-77.2 40.545-123.333 0-115.484-93.961-209.445-209.445-209.445s-209.444 93.961-209.444 209.445 93.961 209.445 209.445 209.445c46.133 0 88.692-15.177 123.337-40.547l137.212 137.212 45.564-45.564c0-.001-137.214-137.213-137.214-137.213zm-168.899 21.667c-79.958 0-145-65.042-145-145s65.042-145 145-145 145 65.042 145 145-65.043 145-145 145z" />
             </svg>
-          </div>
-          <input type="search" name="search" placeholder="Поиск:" class="search_input search_text_1">
-        </div>
+        </label>
         <a href="#" class="header_menu">
           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
             <path fill="#E72C2D" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z" class="header_menu_img" />
@@ -41,7 +39,7 @@
       </div>
     </div>
     <div class="header_mid content">
-      <p class="header-text">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+      <p class="header-text">Интернет-магазин строительных материалов <br> и инструментов для ремонта</p>
       <div class="header_an">
         <p class="header_nuber"><a href="tel:+7(812)555-05-55" class="number_n"><img src="img/icon/icon-phone.svg" alt="Телефон" class="img_nm"> +7 (812) 555-05-55</a> <br>
           <address class="header_address"> г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
@@ -76,28 +74,37 @@
       <div class="cards_block_top">
         <div class="card materials_сards">
           <div class="card_teg">
-            <h3>МАТЕРИАЛЫ</h3>
+            <h3 class="cards_h3">Материалы</h3>
             <p> <a href="#" class="button_cards mat_but">НА ЛЮБОЙ ВКУС</a></p>
           </div>
-          <div class="card_img">
+          <div class="card_img card_img_1">
             <img src="img/icon/icon-1.svg" alt="Картинка материалы ">
+          </div>
+          <div class="new_1 new">
+            <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
           </div>
         </div>
         <div class="card tool_card">
           <div class="card_teg">
-            <h3>ИНСТРУМЕНТ</h3>
+            <h3 class="cards_h3">Инструмент</h3>
             <p> <a href="#" class="button_cards toll_but">НА ВСЕ СЛУЧАИ</a></p>
           </div>
-          <div class="card_img">
+          <div class="card_img card_img_2">
             <img src="img/icon/icon-2.svg" alt="Картинка инструмент ">
+          </div>
+          <div class="new_1">
+            <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
           </div>
         </div>
         <div class="card equipment">
           <div class="card_teg">
-            <h3>ТЕХНИКА</h3>
+            <h3 class="cards_h3">Техника</h3>
             <p> <a href="#" class="button_cards eqip_but">ДЛЯ СТРОЙКИ</a></p>
           </div>
-          <div class="card_img">
+          <div class="new_1">
+            <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+          </div>
+          <div class="card_img card_img_3">
             <img src="img/icon/icon-3.svg" alt="Картинка техника ">
           </div>
         </div>
@@ -128,20 +135,29 @@
         <div class="cards_bot_right">
           <div class="card sale_card">
             <div class="card_teg">
-              <h3>СКИДА 50%</h3>
+              <h3 class="cards_h3">Скидка 50%</h3>
               <p> <a href="#" class="button_cards eqip_but">НА 350 ТОВАРОВ</a></p>
             </div>
-            <div class="card_img">
+            <div class="card_img card_img_4">
               <img src="img/icon/icon-4.svg" alt="Картинка скидка ">
+            </div>
+            <div class="new_1">
+              <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
             </div>
           </div>
           <div class=" card delivery_card">
             <div class="card_teg">
-              <h3>ДОСТАВКА</h3>
+              <h3 class="cards_h3">Доставка</h3>
               <p> <a href="#" class="button_cards delivery_but">БЕСПЛАТНО</a></p>
             </div>
-            <div class="card_img">
+            <div class="new_1">
+              <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+            </div>
+            <div class="card_img card_img_5">
               <img src="img/icon/icon-5.svg" alt="Картинка доставка ">
+            </div>
+            <div class="new_1">
+              <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
             </div>
           </div>
         </div>
@@ -160,8 +176,11 @@
           <div class="bosch_card_img">
             <a href="#"><img src="img/picture/9000.jpg" alt="Перфоратор BOSCH BFG 9000"></a>
           </div>
+          <div class="new_1">
+            <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+          </div>
           <div class="bosch_card_link">
-            <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img">
+            <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
                 <circle cx="4.5" cy="13.5" r="1.5" />
                 <circle cx="12.5" cy="13.5" r="1.5" />
                 <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
@@ -184,8 +203,11 @@
           <div class="bosch_card_img">
             <a href="#"><img src="img/picture/3000.jpg" alt="Перфоратор BOSCH BFG 3000"></a>
           </div>
+          <div class="new_1">
+            <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+          </div>
           <div class="bosch_card_link">
-            <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img">
+            <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
                 <circle cx="4.5" cy="13.5" r="1.5" />
                 <circle cx="12.5" cy="13.5" r="1.5" />
                 <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
@@ -208,8 +230,11 @@
           <div class="bosch_card_img">
             <a href="#"><img src="img/picture/6000.jpg" alt="Перфоратор BOSCH BFG 6000"></a>
           </div>
+          <div class="new_1">
+            <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+          </div>
           <div class="bosch_card_link">
-            <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img">
+            <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
                 <circle cx="4.5" cy="13.5" r="1.5" />
                 <circle cx="12.5" cy="13.5" r="1.5" />
                 <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
@@ -228,12 +253,15 @@
             <p>25500 Р.</p>
           </div>
         </section>
-        <section class="bosch_card">
+        <section class="bosch_card ">
           <div class="bosch_card_img">
             <a href="#"><img src="img/picture/2000.jpg" alt="Перфоратор BOSCH BFG 2000"></a>
           </div>
+          <div class="new_1 new">
+            <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+          </div>
           <div class="bosch_card_link">
-            <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img">
+            <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
                 <circle cx="4.5" cy="13.5" r="1.5" />
                 <circle cx="12.5" cy="13.5" r="1.5" />
                 <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
@@ -288,7 +316,7 @@
       </section>
       <section class="service ">
         <div class="service_text content">
-          <h2 class="service_text_h2">СЕРВИСЫ</h2>
+          <h2 class="service_text_h2 h3_style">СЕРВИСЫ</h2>
           <p class="service_text_p">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         </div>
         <div class="slider_block content">
@@ -320,7 +348,7 @@
     <article class="bot_info content ">
       <h2 class="visually-hidden">О КОМПАНИИ</h2>
       <section>
-        <h3 class="bot_left_inf h3_style">КОМПАИЯ "ТЕХНОМАРТ"</h3>
+        <h3 class="bot_left_inf h3_style">КОМПАНИЯ «ТЕХНОМАРТ»</h3>
         <p class="text_bot_1">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и <br>
           строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
         <p class="text_bot_2">Мы можем доставить ваш товар в самые отдаленные точки России! <br>
@@ -381,7 +409,7 @@
           <p class="feed_text">Обратная связь:</p>
           <p> <a href="mailto:mail@htmlacademy.ru" class="feed_mail">mail@htmlacademy.ru</a></p>
         </div>
-        <div class="feedback">
+        <div class="feedback_2">
           <p class="feed_text">Разработано-</p>
           <p><a href="https://htmlacademy.ru/" class="feed_mail">htmlacademy.ru</a> </p>
         </div>
