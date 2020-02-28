@@ -57,7 +57,17 @@ img {
 }
 
 .header_menu:hover {
+  background-color: #212a3a;
+}
+.header_menu:active {
   background-color: #161d29;
+  opacity: 0.3;
+}
+.header_menu:hover .header_menu_img{
+  fill:white;
+}
+.header_menu:active .header_menu_img{
+  opacity: 0.3;
 }
 
 .header_menu:active {
@@ -102,6 +112,7 @@ img {
   position: absolute;
   left: 17px;
   top: 12px;
+  opacity: 0.3;
 }
 
 .search_input {
@@ -110,30 +121,35 @@ img {
   width: 270px;
   padding-left: 47px;
   border: none;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 17px;
   color: black;
   line-height: 1.06;
 }
+.search_input:hover {
+  background-color: #212a3a;
+}
+
 
 .search_input:focus {
   background-color: white;
 }
 
-.search_input:hover {
-  background-color: white;
-}
 
-.search_input:focus~.search_img {
-  fill: red;
-}
+
+
 
 .search_input:hover~.search_img {
+  fill: white;
+  opacity: 1;
+}
+.search_input:focus~.search_img {
   fill: red;
+  opacity: 1;
 }
 
 .search_input::placeholder {
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 17px;
   color: white;
 }
@@ -182,6 +198,12 @@ img {
   width: 109px;
   height: 19px;
 }
+.logo_top:hover{
+  background-color: #ca2c37;
+}
+.logo_top:active{
+  background-color: #ba2732;
+}
 
 .header_menu.buy {
   display: flex;
@@ -222,7 +244,7 @@ img {
   padding-right: 32px;
   background-color: #32425c;
   box-shadow: inset 0px -5px 0 0 #293449;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 17px;
 }
 
@@ -245,14 +267,15 @@ img {
 .header-text {
   margin-right: 71px;
   width: 197px;
-  height: 60px;
+  min-height: 60px;
   color: #ee3643;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: italic;
   line-height: 1.44;
+  white-space: pre-line;
 }
 
 .btn_lr {
@@ -336,7 +359,7 @@ img {
 }
 
 .header_address {
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-style: normal;
   font-size: 14px;
   color: #32425c;
@@ -357,12 +380,12 @@ img {
   display: block;
   margin-top: 27px;
   line-height: 1.85;
-  font-family: 'PT Sans';
+  font-family: 'PT sans', sans-serif;
   font-size: 13px;
 }
 
 .text_bot_2 {
-  font-family: 'PT Sans';
+  font-family: 'PT sans', sans-serif;
   font-size: 13px;
   line-height: 1.85;
   margin-top: 23px;
@@ -410,7 +433,7 @@ img {
   text-decoration: none;
   color: white;
   background-color: rgba(0, 0, 0, 0.1);
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 14px;
   border-radius: 3px;
   margin-top: -14px;
@@ -507,7 +530,7 @@ img {
   top: 25px;
   left: 25px;
   color: white;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 36px;
   font-weight: bold;
   margin: 0px;
@@ -518,7 +541,7 @@ img {
   top: 64px;
   left: 25px;
   color: white;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 18px;
   font-weight: normal;
 }
@@ -610,7 +633,7 @@ img {
 .card_but_text {
   font-weight: bold;
 }
-}
+
 
 .bot_left_inf {
   display: flex;
@@ -673,7 +696,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 89px;
+  min-height: 89px;
   margin-top: 0px;
   background-color: #f9f5f0;
   padding-left: 30px;
@@ -682,7 +705,7 @@ img {
 
 .popular_h2 {
   margin: 0px;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 30px;
   color: #32425c;
   font-weight: normal;
@@ -711,7 +734,7 @@ img {
   width: 220px;
   min-height: 318px;
   border: solid 1px #eaeaea;
-  font-family: 'PT Sans';
+  font-family: 'PT sans', sans-serif;
   margin-right: 20px;
   z-index: 1px;
 }
@@ -734,7 +757,7 @@ img {
   align-items: center;
   flex-direction: column;
   font-size: 14px;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   display: none;
 }
 
@@ -774,6 +797,10 @@ img {
 .bosch_card_link_img {
   margin-right: 22px;
   margin-left: 14px;
+  fill:white;
+  opacity: 0.4;
+
+
 }
 
 .bosch_card_btn_buy:hover {
@@ -781,7 +808,11 @@ img {
 }
 
 .bosch_card_btn_buy:hover .bosch_card_link_img {
+  opacity: 1;
   fill: white;
+}
+.bosch_card_btn_buy:active .bosch_card_link_img {
+opacity: 0.3;
 }
 
 .bosch_card_btn_mark:hover {
@@ -790,6 +821,7 @@ img {
 
 .bosch_card_btn_buy:active {
   background-color: #518534;
+  box-shadow: none;
 }
 
 .bosch_card_btn_mark:active {
@@ -799,7 +831,7 @@ img {
 
 .bosch_card_name_text {
   text-decoration: none;
-  font-family: 'PT Sans';
+  font-family: 'PT sans', sans-serif;
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -814,7 +846,7 @@ img {
 .bosch_card_prise {
   color: #a9a9a9;
   text-decoration: line-through;
-  font-family: 'PT Sans';
+  font-family: 'PT sans', sans-serif;
   font-size: 17px;
   font-weight: bold;
 }
@@ -825,7 +857,7 @@ img {
   align-items: center;
   width: 141px;
   height: 38px;
-  font-family: 'PT Sans';
+  font-family: 'PT sans', sans-serif;
   font-size: 17px;
   font-weight: bold;
   color: white;
@@ -886,7 +918,7 @@ img {
   justify-content: flex-start;
   position: relative;
   align-items: center;
-  margin-top: 74px;
+  margin-top: 65px;
 }
 
 .slider_nav {
@@ -899,7 +931,7 @@ img {
 .slider_nav_1 {
   display: flex;
   justify-content: flex-start;
-  padding-left: 11px;
+  padding-left: 22px;
   align-items: center;
   width: 240px;
   min-height: 60px;
@@ -917,6 +949,7 @@ img {
 .slider_nav_1:hover {
   background-color: white;
   color: #32425c;
+  border: none;
 }
 
 .slider_nav_1:active {
@@ -926,7 +959,7 @@ img {
 
 .service_text_h2 {
   display: block;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 30px;
   margin: 0px;
 }
@@ -934,8 +967,8 @@ img {
 .service_text_p {
   display: block;
   width: 398px;
-  height: 37px;
-  font-family: 'PT Sans';
+  min-height: 37px;
+  font-family: 'PT sans', sans-serif;
   font-size: 13px;
   margin-top: 25px;
   line-height: 1.85;
@@ -949,6 +982,9 @@ img {
   display: block;
   width: 275px;
   margin-top: 20px;
+  min-height: 1px;
+  overflow: hidden;
+
 }
 
 .service_slider {
@@ -957,21 +993,21 @@ img {
 }
 
 .service_slider_h2 {
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 36px;
   color: #32425c;
   margin: 0px;
 }
 
 .service_slider_text {
-  font-family: 'PT Sans';
+  font-family: 'PT sans', sans-serif;
   font-size: 13px;
   line-height: 1.85;
 }
 
 .slider_nav_1 a {
   text-decoration: none;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 21px;
   font-weight: bold;
   color: white;
@@ -1037,7 +1073,7 @@ img {
 }
 
 .text_bot_3 {
-  font-family: 'PT Sans';
+  font-family: 'PT sans', sans-serif;
   font-size: 13px;
   line-height: 1.85;
   margin-top: 27px;
@@ -1091,10 +1127,12 @@ img {
 
 .footer_nav_link:active {
   color: rgba(241, 245, 247, 0.5);
+  text-decoration: none;
 }
 
 .footer_nav_link_2:active {
   color: rgba(255, 209, 128, 0.5);
+  text-decoration: none;
 }
 
 .socal_ic:hover {
@@ -1129,6 +1167,7 @@ img {
   font-style: normal;
   color: #f3f7f9;
   margin-top: 30px;
+  width: 322px;
 }
 
 .number_bot {
@@ -1232,7 +1271,7 @@ img {
 
 .feedback_window {
   display: block;
-  display: none;
+display: none;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -1240,11 +1279,11 @@ img {
   background-color: white;
   width: 620px;
   height: auto;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 18px;
   box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
   border-top: 7px solid #ee3643;
-}
+  }
 
 .feedback_content {
   width: 460px;
@@ -1295,9 +1334,11 @@ img {
   align-items: center;
   width: 100%;
   background-color: #ee3643;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 14px;
   box-shadow: none;
+  border-radius: 3px;
+  border: none;
 }
 
 .feedback_btn_close {
@@ -1305,5 +1346,8 @@ img {
   top: 9px;
   right: 6px;
   border: none;
-  background-color: none;
+  background-color: white;
+}
+.feedback_window_show{
+  display: block;
 }
