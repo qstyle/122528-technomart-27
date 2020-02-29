@@ -116,7 +116,7 @@ img {
 }
 
 .search_input {
-  background-color: inherit;
+  background-color: #293449;
   height: 42px;
   width: 270px;
   padding-left: 47px;
@@ -153,9 +153,16 @@ img {
   font-size: 17px;
   color: white;
 }
+.search_input:-ms-input-placeholder{
+  font-family: 'Cuprum', sans-serif;
+  font-size: 17px;
+  color: white;
+}
 
 .search_input:focus::placeholder {
   color: black;
+}
+
 }
 
 .search_input:hover::placeholder {
@@ -170,6 +177,14 @@ img {
   color: white;
   text-decoration: none;
   margin-left: 13px;
+}
+/* если в корзине есть товар то приментить этот стиль  header_menu_text_basket_on */
+.header_menu_text_basket{
+      background-color: #ee3643;
+      display: none;
+}
+.header_menu_text_basket_on{
+  display: block;
 }
 
 .header_menu {
@@ -1024,7 +1039,7 @@ opacity: 0.3;
 .service_slider_text {
   display: flex;
   flex-direction: column;
-  height: 183px;
+  min-height: 183px;
   width: 275px;
 }
 
