@@ -231,32 +231,32 @@ img {
   color: black;
 }
 
-.search_input:focus::placeholder {
-  color: black;
-}
-
 .search_input:hover::-webkit-input-placeholder {
-  color: black;
+  color: white;
 }
 
 .search_input:hover::-moz-placeholder {
-  color: black;
+  color: white;
 }
 
 .search_input:hover:-ms-input-placeholder {
-  color: black;
+  color: white;
 }
 
 .search_input:hover::-ms-input-placeholder {
-  color: black;
+  color: white;
 }
 
 .search_input:hover::placeholder {
-  color: black;
+  color: white;
 }
 
 .header_menu_img {
   fill: rgba(255, 255, 255, 0.1);
+}
+
+.search_input:focus::placeholder {
+  color: black;
 }
 
 .header_menu_text {
@@ -315,6 +315,7 @@ img {
 .logo_top:active {
   background-color: #ba2732;
 }
+
 .logo_bot:hover {
   background-color: #ca2c37;
 }
@@ -413,6 +414,7 @@ img {
   font-style: italic;
   line-height: 1.44;
   white-space: pre-line;
+  flex-shrink: 0;
 }
 
 .btn_lr {
@@ -941,6 +943,8 @@ img {
   font-size: 30px;
   color: #32425c;
   font-weight: normal;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .popular_btn {
@@ -1150,10 +1154,6 @@ img {
   margin-bottom: 21px;
 }
 
-.bosch_card_sale_2000 {
-  margin-top: 30px;
-}
-
 .bosch_card_name a {
   text-decoration: none;
 }
@@ -1226,9 +1226,7 @@ img {
   -ms-flex-pack: start;
   justify-content: flex-start;
   position: relative;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 65px;
 }
 
@@ -1253,7 +1251,7 @@ img {
   text-decoration: none;
   list-style: none;
   color: #ffffff;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', sans-serif;
   font-size: 21px;
   font-weight: bold;
   line-height: 1.43;
@@ -1300,10 +1298,12 @@ img {
 
 .service_slider_text {
   display: block;
-  width: 275px;
+  width: 280px;
   margin-top: 20px;
   min-height: 1px;
   overflow: hidden;
+  position: relative;
+  z-index: 2;
 }
 
 .service_slider {
@@ -1349,13 +1349,24 @@ img {
   -ms-flex-direction: column;
   flex-direction: column;
   min-height: 183px;
-  width: 275px;
+  width: 280px;
+}
+
+.credit_btn {
+  display: flex;
+  width: 195px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  margin-top: -100px;
 }
 
 .service_slider_img {
   position: absolute;
   bottom: 0px;
   right: 0px;
+  z-index: 1;
 }
 
 .btn {
@@ -1675,7 +1686,6 @@ img {
 }
 
 .feedback_window {
-  display: block;
   display: none;
   position: fixed;
   top: 50%;
@@ -1690,6 +1700,7 @@ img {
   -webkit-box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
   box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
   border-top: 7px solid #ee3643;
+  z-index: 3;
 }
 
 .feedback_content {
@@ -1722,18 +1733,28 @@ img {
   margin-bottom: 13px;
 }
 
+.feedback_font {
+  margin-bottom: 13px;
+}
+
 .input_feedback {
   width: 220px;
   height: 38px;
+  border-radius: 3px;
+  border: solid 2px #dee3e4;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 13px;
 }
 
 .feedback_mail_text_area {
   width: 100%;
   min-height: 114px;
-}
-
-.feedback_mail_text {
-  margin-top: 22px;
+  border-radius: 3px;
+  border: solid 2px #dee3e4;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 13px;
 }
 
 .feedback_submit_area {
@@ -1750,6 +1771,8 @@ img {
   -ms-flex-align: center;
   align-items: center;
   margin-top: 37px;
+  border-radius: 3px;
+  border: solid 2px #dee3e4;
 }
 
 .feedback_submit {
@@ -1782,4 +1805,8 @@ img {
 
 .feedback_window_show {
   display: block;
+}
+
+.feedback_name label {
+  margin-bottom: 10px;
 }
