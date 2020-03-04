@@ -69,7 +69,7 @@
     </div>
     <nav>
       <ul class="nav content">
-        <li><a href="#" class="nav_menu nav_menu_1 ">Главная</a></li>
+        <li><a href="index.html" class="nav_menu nav_menu_1 ">Главная</a></li>
         <li><a href="#" class="nav_menu nav_menu_1">Компания</a></li>
         <li><a href="#" class="nav_menu nav_menu_1">Каталог</a></li>
         <li><a href="#" class="nav_menu nav_menu_1">Новости</a></li>
@@ -95,6 +95,7 @@
           <div class="filter_text">
             <p>ФИЛЬТР:</p>
           </div>
+          <aside>
           <h2 class="catalog_h2 prise_h2">ЦЕНА:</h2>
           <div class="prise_edit">
             <div class="edit_bg"></div>
@@ -112,23 +113,40 @@
             </button>
             <div class="prise_edit_line"></div>
             <div class="prise_edit_line_2"></div>
-          </div>
-          <aside>
-            <h2 class="">ПРОИЗВОДИТЕЛИ:</h2>
+                      </div>
+                      <form class="prise_input" action="index.html" method="post">
+                        <input type="text" name="input_min" class="prise_input_input" placeholder="0">
+                        <input type="text" name="input_max" class="prise_input_input" placeholder="30000">
+                      </form>
             <form action="index.html" method="post">
               <fieldset class="catalog_checkbox">
-                <label> <input type="checkbox" name="bosch" value="bosch">BOSCH</label>
-                <label> <input type="checkbox" name="interskol" value="interskol">ИНТЕРСКОЛ</label>
-                <label> <input type="checkbox" name="makita" value="makita">MAKITA</label>
-                <label> <input type="checkbox" name="dewalt" value="dewalt">DEWALT</label>
-                <label> <input type="checkbox" name="hitachi" value="hitachi">HITACHI</label>
+                <h2 class="catalog_h2 catalog_brend">ПРОИЗВОДИТЕЛИ:</h2>
+                <div class="checkbox">
+                 <input type="checkbox" id="check"  name="bosch" value="bosch"><label for="check">BOSCH</label>
+               </div>
+               <div class="checkbox">
+                <input type="checkbox" id="check_1"  name="bosch" value="bosch"><label for="check_1">ИНТЕРСКОЛ</label>
+              </div>
+              <div class="checkbox">
+               <input type="checkbox" id="check_2"  name="bosch" value="bosch"><label for="check_2">MAKITA</label>
+             </div>
+             <div class="checkbox">
+              <input type="checkbox" id="check_3"  name="bosch" value="bosch"><label for="check_3">DEWALT</label>
+            </div>
+            <div class="checkbox">
+             <input type="checkbox" id="check_4"  name="bosch" value="bosch"><label for="check_4">HITACHI</label>
+           </div>
               </fieldset>
-              <h3>ПИТАНИЕ</h3>
-              <fieldset>
-                <label> <input type="radio" name="TYPE" value="battery">АККАМУЛЯТОРНЫЕ </label>
-                <label> <input type="radio" name="TYPE" value="non_battery">СЕТЬЕВЫЕ </label>
+              <h2 class="catalog_h2">ПИТАНИЕ</h2>
+              <fieldset class="radio_cat">
+                <div class="battery">
+                  <input type="radio" name="TYPE" value="battery" id="radio_bat"><label for="radio_bat">АККАМУЛЯТОРНЫЕ </label>
+                  </div>
+                  <div class="battery">
+                  <input type="radio" name="TYPE" value="non_battery" id="radio_nbat"><label for="radio_nbat">СЕТЬЕВЫЕ </label>
+                 </div>
               </fieldset>
-              <input type="submit" name="Показать" value="Показать">
+              <input type="submit" name="Показать" value="ПОКАЗАТЬ" class="submit_btn">
             </form>
           </aside>
         </div>
@@ -448,12 +466,14 @@
       </section>
     </div>
   </footer>
-  <section>
+  <section class="feedback_window">
     <h2 class="visually-hidden">Товар выбран</h2>
-    <h3>Товар добавлен в корзину</h3>
-    <a href="#">ОФОРМИТЬ ЗАКАЗ</a>
-    <a href="#">ПРОДОЛЖИТЬ ПОКУПКИ</a>
-    <button type="button" name="close"><img src="img/icon/form-close.svg" alt="Закрыть"></button>
+    <h3 class="add_h3">Товар добавлен в корзину!</h3>
+    <div class="add_btn_all">
+        <a href="#" class=" add_btn add_btn_1">ОФОРМИТЬ ЗАКАЗ</a>
+    <a href="#" class=" add_btn add_btn_2">ПРОДОЛЖИТЬ ПОКУПКИ</a>
+    </div>
+    <button type="button" name="close" class="feedback_btn_close"><img src="img/icon/form-close.svg" alt="Закрыть"></button>
   </section>
 </body>
 

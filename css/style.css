@@ -343,7 +343,7 @@ img {
   color: white;
 }
 
-/*navigation*/
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1801,7 +1801,7 @@ img {
 }
 
 .feedback_window {
-  display: none;
+display: none;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -1816,6 +1816,59 @@ img {
   box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
   border-top: 7px solid #ee3643;
   z-index: 3;
+}
+.add_h3{
+  position: relative;
+  font-family: 'Cuprum';
+ font-size: 30px;
+ font-weight: normal;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1;
+ letter-spacing: normal;
+ text-align: center;
+ color: #000000;
+ margin-top: 68px;
+ margin-bottom: 66px;
+}
+.add_h3:before{
+
+  content: '';
+  width: 66px;
+  height: 66px;
+  background-image: url(../img/icon/modal-check.svg);
+  position: absolute;
+  top: -67%;
+  left:11%;
+}
+.add_btn_all{
+  display: flex;
+  justify-content: center;
+  background-color: #f1f1f1;
+width: 100%;
+padding-top: 37px;
+padding-bottom: 37px;
+}
+.add_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  min-height: 38px;
+  text-decoration: none;
+  font-family: 'Cuprum';
+  font-size: 14px;
+  font-weight: normal;
+    line-height: 1.29;
+      color: #000000;
+      background-color: white;
+}
+.add_btn_1{
+  margin-right: 20px;
+}
+.add_btn:hover{
+  background-color: #ee3643;
+  color: white;
 }
 
 .feedback_content {
@@ -2048,7 +2101,7 @@ img {
   color: #000000;
   background-color: #f7f3ec;
   padding-left: 14px;
-  margin-bottom: 21px;
+  margin-bottom: 25px;
 
 }
 
@@ -2110,6 +2163,7 @@ img {
   height: 80px;
   background-color: #f7f3ec;
   position: relative;
+  margin-bottom: 9px;
 }
 
 .prise_edit_btn {
@@ -2144,6 +2198,10 @@ position: absolute;
   font-style: normal;
   line-height: 1.76;
   color: #000000;
+}
+.catalog_brend{
+  margin-top: -5px;
+  margin-left: -15px;
 }
 
 .prise_h2 {
@@ -2245,3 +2303,121 @@ position: absolute;
   color: white;
   border: none;
 }
+.prise_input{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+.prise_input_input{
+
+  text-align: center;
+  width: 95px;
+  height: 38px;
+  overflow: hidden;
+  background-color: #f7f3ec;
+  border: none;
+  font-family: 'PT Sans';
+  font-size: 17px;
+}
+.prise_input:after{
+  content: '';
+  width: 10px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.prise_input_input::placeholder{
+  color: black;
+}
+.catalog_checkbox{
+  border:none;
+  border-top: 1px solid #c5c5c5;
+  border-bottom:  1px solid #c5c5c5;
+}
+.checkbox {
+	position:relative;
+	padding-left:25px;
+  font-family: 'PT Sans';
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  margin-bottom: 19px;
+}
+.checkbox input[type=checkbox] {
+  display: none;
+
+}
+.checkbox label:after {
+	content:'';
+	display:block;
+	height:30px;
+	width:30px;
+	background-image: url(../img/icon/checkbox-off.svg);
+  background-repeat: no-repeat;
+  position:absolute;
+	top:-3px;
+	left:-13px;
+  border: none;
+}
+.checkbox input[type=checkbox]:checked + label:after {
+		width:30px;
+	height:30px;
+  background-image: url(../img/icon/checkbox-on.svg);
+}
+.battery input[type=radio]{
+  display: none;
+  }
+  .battery {
+  	position:relative;
+  	padding-left:25px;
+    font-family: 'PT Sans';
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    margin-bottom: 19px;
+  }
+  .battery label:after {
+  	content:'';
+  	display:block;
+  	height:30px;
+  	width:30px;
+  	background-image: url(../img/icon/radio-off.svg);
+    background-repeat: no-repeat;
+    position:absolute;
+  	top:-3px;
+  	left:-13px;
+    border: none;
+  }
+  .battery input[type=radio]:checked + label:after {
+  		width:30px;
+  	height:30px;
+    background-image: url(../img/icon/radio-on.svg);
+  }
+  .radio_cat{
+    font-family: 'PT Sans';
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  border: none;
+  margin-bottom: 50px;
+  }
+  .submit_btn{
+    width: 140px;
+    min-height: 38px;
+    border: solid 1px #e5e5e5;
+  background-color: #ffffff;
+  font-family: 'PT Sans';
+  font-size: 13px;
+  }
