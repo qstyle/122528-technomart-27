@@ -553,7 +553,7 @@ img {
 }
 
 .btn_login_2:hover {
-  color: #ee3643;
+  color: black;
 }
 
 .btn_login_2:hover .btn_login_img_2 {
@@ -1955,7 +1955,7 @@ img {
   background-image: url(../img/icon/icon-right-small.svg);
   background-repeat: no-repeat;
   position: absolute;
-  top: 1%;
+  top: 19%;
   left: 13%;
   width: 20px;
   height: 20px;
@@ -2017,6 +2017,10 @@ img {
   display: flex;
   flex-direction: column;
 }
+.catalog_main{
+  display: flex;
+  flex-direction: column;
+}
 
 .filer {
   display: flex;
@@ -2030,6 +2034,7 @@ img {
   background-color: #f7f3ec;
   align-items: center;
   padding-left: 17px;
+  margin-bottom: 21px;
 }
 
 .filter_text {
@@ -2043,7 +2048,8 @@ img {
   color: #000000;
   background-color: #f7f3ec;
   padding-left: 14px;
-  margin-right: 20px;
+  margin-bottom: 21px;
+
 }
 
 .filter_link {
@@ -2080,7 +2086,8 @@ img {
 
 .filter_link:hover {
   color: #000000;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #ee3643;
+
 }
 
 .filter_link:active {
@@ -2090,6 +2097,7 @@ img {
 
 .filter_link_img:hover {
   fill: rgba(0, 0, 0, 1);
+
 }
 
 .filter_link_img:active {
@@ -2105,23 +2113,27 @@ img {
 }
 
 .prise_edit_btn {
+
   position: absolute;
   border: none;
-  width: 0px;
-  height: 0px;
+  width: 20px;
+  height: 22px;
   border-radius: 50%;
-  top: 36%;
+  top: 42%;
   z-index: 2;
+  padding: 0px;
 }
 
 .prise_edit_btn_left {
+    position: absolute;
   left: 9%;
-  transform: translate(-50%, -50%);
+
 }
 
 .prise_edit_btn_right {
+position: absolute;
   left: 73%;
-  transform: translate(-50%, -50%);
+
 }
 
 .catalog_h2 {
@@ -2142,7 +2154,7 @@ img {
   width: 150px;
   height: 2px;
   position: absolute;
-  top: 48%;
+  top: 52%;
   left: 9%;
   background-color: #63a63e;
   border: none;
@@ -2153,7 +2165,7 @@ img {
   width: 20px;
   height: 2px;
   position: absolute;
-  top: 48%;
+  top: 52%;
   left: 80%;
   background-color: #d7dcde;
   border: none;
@@ -2163,8 +2175,8 @@ img {
 .main_bot {
   width: 100%;
   background-color: #f4f7f9;
-  padding-top: 67px;
-  padding-bottom: 73px;
+  padding-top: 38px;
+  padding-bottom: 63px;
 }
 
 .main_bot_h3 {
@@ -2231,4 +2243,5 @@ img {
 .btn_active {
   background-color: #ee3643;
   color: white;
+  border: none;
 }
