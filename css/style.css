@@ -1473,11 +1473,15 @@ img {
   color: white;
 }
 
-.service_slider_hidden {
+
+
+.service_slider_1{
   display: none;
 }
-
-.service_slider_hidden {
+.service_slider_2{
+  display: none;
+}
+.service_slider_3{
   display: none;
 }
 
