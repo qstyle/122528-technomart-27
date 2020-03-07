@@ -92,59 +92,63 @@
       <h1 class="popular_text popular_h1">ПЕРФОРАТОРЫ</h1>
       <section class="catalog">
         <div class="catalog_menu">
-          <div class="filter_text">
-            <p>ФИЛЬТР:</p>
-          </div>
           <aside>
-          <h2 class="catalog_h2 prise_h2">ЦЕНА:</h2>
-          <div class="prise_edit">
-            <div class="edit_bg"></div>
-            <button type="button" name="button" class="prise_edit_btn prise_edit_btn_left"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" viewBox="0 0 20 23">
-                <path  d="M10 20C4.477 20 0 15.522 0 10v2c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10v-2c0 5.522-4.478 10-10 10z" opacity=".3" class="prise_edit_btn_left_img"/>
-                <circle cx="10" cy="10" r="10" fill="#FFF" />
-                <circle cx="10" cy="10" r="2" fill="#ABABAB" />
-              </svg>
-            </button>
-            <button type="button" name="button" class="prise_edit_btn prise_edit_btn_right"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" viewBox="0 0 20 23">
-                <path  d="M10 20C4.477 20 0 15.522 0 10v2c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10v-2c0 5.522-4.478 10-10 10z" opacity=".3" />
-                <circle cx="10" cy="10" r="10" fill="#FFF" />
-                <circle cx="10" cy="10" r="2" fill="#ABABAB" />
-              </svg>
-            </button>
-            <div class="prise_edit_line"></div>
-            <div class="prise_edit_line_2"></div>
-                      </div>
-                      <form class="prise_input" action="index.html" method="post">
-                        <input type="text" name="input_min" class="prise_input_input" placeholder="0">
-                        <input type="text" name="input_max" class="prise_input_input" placeholder="30000">
-                      </form>
+            <div class="filter_text">
+              <h3 class="filter_h3">ФИЛЬТР:</h3>
+            </div>
+
+            <h2 class="catalog_h2 prise_h2">ЦЕНА:</h2>
             <form action="index.html" method="post">
+              <fieldset class="prise">
+                <div class="prise_edit">
+                  <div class="edit_bg"></div>
+                  <button type="button" name="button" class="prise_edit_btn prise_edit_btn_left"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" viewBox="0 0 20 23">
+                      <path d="M10 20C4.477 20 0 15.522 0 10v2c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10v-2c0 5.522-4.478 10-10 10z" opacity=".3" class="prise_edit_btn_left_img" />
+                      <circle cx="10" cy="10" r="10" fill="#FFF" />
+                      <circle cx="10" cy="10" r="2" fill="#ABABAB" />
+                    </svg>
+                  </button>
+                  <button type="button" name="button" class="prise_edit_btn prise_edit_btn_right"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" viewBox="0 0 20 23">
+                      <path d="M10 20C4.477 20 0 15.522 0 10v2c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10v-2c0 5.522-4.478 10-10 10z" opacity=".3" />
+                      <circle cx="10" cy="10" r="10" fill="#FFF" />
+                      <circle cx="10" cy="10" r="2" fill="#ABABAB" />
+                    </svg>
+                  </button>
+                  <div class="prise_edit_line"></div>
+                  <div class="prise_edit_line_2"></div>
+                </div>
+                <div class="prise_input">
+                  <input type="text" name="input_min" class="prise_input_input" placeholder="0">
+                  <input type="text" name="input_max" class="prise_input_input" placeholder="30000">
+                </div>
+              </fieldset>
+
               <fieldset class="catalog_checkbox">
                 <h2 class="catalog_h2 catalog_brend">ПРОИЗВОДИТЕЛИ:</h2>
                 <div class="checkbox">
-                 <input type="checkbox" id="check"  name="bosch" value="bosch"><label for="check">BOSCH</label>
-               </div>
-               <div class="checkbox">
-                <input type="checkbox" id="check_1"  name="bosch" value="bosch"><label for="check_1">ИНТЕРСКОЛ</label>
-              </div>
-              <div class="checkbox">
-               <input type="checkbox" id="check_2"  name="bosch" value="bosch"><label for="check_2">MAKITA</label>
-             </div>
-             <div class="checkbox">
-              <input type="checkbox" id="check_3"  name="bosch" value="bosch"><label for="check_3">DEWALT</label>
-            </div>
-            <div class="checkbox">
-             <input type="checkbox" id="check_4"  name="bosch" value="bosch"><label for="check_4">HITACHI</label>
-           </div>
+                  <input type="checkbox" id="check" name="bosch" value="bosch"><label for="check">BOSCH</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" id="check_1" name="bosch" value="bosch"><label for="check_1">ИНТЕРСКОЛ</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" id="check_2" name="bosch" value="bosch"><label for="check_2">MAKITA</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" id="check_3" name="bosch" value="bosch"><label for="check_3">DEWALT</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" id="check_4" name="bosch" value="bosch"><label for="check_4">HITACHI</label>
+                </div>
               </fieldset>
               <h2 class="catalog_h2">ПИТАНИЕ</h2>
               <fieldset class="radio_cat">
                 <div class="battery">
                   <input type="radio" name="TYPE" value="battery" id="radio_bat"><label for="radio_bat">АККАМУЛЯТОРНЫЕ </label>
-                  </div>
-                  <div class="battery">
+                </div>
+                <div class="battery">
                   <input type="radio" name="TYPE" value="non_battery" id="radio_nbat"><label for="radio_nbat">СЕТЬЕВЫЕ </label>
-                 </div>
+                </div>
               </fieldset>
               <input type="submit" name="Показать" value="ПОКАЗАТЬ" class="submit_btn">
             </form>
@@ -152,7 +156,7 @@
         </div>
         <div class="catalog_main">
           <div class="filter_sort">
-            <p>СОРТИРОВКА:</p>
+            <h3 class="filter_h3">СОРТИРОВКА:</h3>
             <a href="#" class="filter_link filter_link_1 ">ПО ЦЕНЕ</a>
             <a href="#" class="filter_link filter_link_2">ПО ТИПУ</a>
             <a href="#" class="filter_link filter_link_3">ПО ФУНКЦИОНАЛУ</a>
@@ -166,248 +170,248 @@
               </svg>
             </a>
           </div>
-        <section class="catalog_cards">
-          <section class="bosch_card bosch_card_catalog ">
-            <div class="bosch_card_img">
-              <a href="#"><img src="img/picture/3000.jpg" alt="Перфоратор BOSCH BFG 3000"></a>
-            </div>
-            <div class="new_1">
-              <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
-            </div>
-            <div class="bosch_card_link">
-              <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
-                  <circle cx="4.5" cy="13.5" r="1.5" />
-                  <circle cx="12.5" cy="13.5" r="1.5" />
-                  <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
-                </svg>КУПИТЬ</a>
-              <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
-            </div>
-            <div class="bosch_card_name">
-              <a href="#">
-                <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 3000</h4>
-              </a>
-            </div>
-            <div class="bosch_card_prise">
-              <p>22500 Р.</p>
-            </div>
-            <div class="bosch_card_sale">
-              <p>15500 Р.</p>
+          <section class="catalog_cards">
+            <section class="bosch_card bosch_card_catalog ">
+              <div class="bosch_card_img">
+                <a href="#"><img src="img/picture/3000.jpg" alt="Перфоратор BOSCH BFG 3000"></a>
+              </div>
+              <div class="new_1">
+                <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+              </div>
+              <div class="bosch_card_link">
+                <a href="#" class="bosch_card_btn_buy buy_1"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
+                    <circle cx="4.5" cy="13.5" r="1.5" />
+                    <circle cx="12.5" cy="13.5" r="1.5" />
+                    <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+                  </svg>КУПИТЬ</a>
+                <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
+              </div>
+              <div class="bosch_card_name">
+                <a href="#">
+                  <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 3000</h4>
+                </a>
+              </div>
+              <div class="bosch_card_prise">
+                <p>22500 Р.</p>
+              </div>
+              <div class="bosch_card_sale">
+                <p>15500 Р.</p>
+              </div>
+            </section>
+            <section class="bosch_card bosch_card_catalog ">
+              <div class="bosch_card_img">
+                <a href="#"><img src="img/picture/6000.jpg" alt="Перфоратор BOSCH BFG 6000"></a>
+              </div>
+              <div class="new_1">
+                <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+              </div>
+              <div class="bosch_card_link">
+                <a href="#" class="bosch_card_btn_buy buy_2"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
+                    <circle cx="4.5" cy="13.5" r="1.5" />
+                    <circle cx="12.5" cy="13.5" r="1.5" />
+                    <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+                  </svg>КУПИТЬ</a>
+                <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
+              </div>
+              <div class="bosch_card_name">
+                <a href="#">
+                  <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 6000</h4>
+                </a>
+              </div>
+              <div class="bosch_card_prise">
+                <p>30500 Р.</p>
+              </div>
+              <div class="bosch_card_sale">
+                <p>25500 Р.</p>
+              </div>
+            </section>
+            <section class="bosch_card bosch_card_catalog ">
+              <div class="bosch_card_img">
+                <a href="#"><img src="img/picture/2000.jpg" alt="Перфоратор BOSCH BFG 2000"></a>
+              </div>
+              <div class="new_1 new">
+                <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+              </div>
+              <div class="bosch_card_link">
+                <a href="#" class="bosch_card_btn_buy buy_3"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
+                    <circle cx="4.5" cy="13.5" r="1.5" />
+                    <circle cx="12.5" cy="13.5" r="1.5" />
+                    <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+                  </svg>КУПИТЬ</a>
+                <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
+              </div>
+              <div class="bosch_card_name">
+                <a href="#">
+                  <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 2000</h4>
+                </a>
+              </div>
+              <div class="bosch_card_sale">
+                <p>12500 Р.</p>
+              </div>
+            </section>
+            <section class="bosch_card bosch_card_catalog ">
+              <div class="bosch_card_img">
+                <a href="#"><img src="img/picture/3000.jpg" alt="Перфоратор BOSCH BFG 3000"></a>
+              </div>
+              <div class="new_1">
+                <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+              </div>
+              <div class="bosch_card_link">
+                <a href="#" class="bosch_card_btn_buy buy_4"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
+                    <circle cx="4.5" cy="13.5" r="1.5" />
+                    <circle cx="12.5" cy="13.5" r="1.5" />
+                    <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+                  </svg>КУПИТЬ</a>
+                <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
+              </div>
+              <div class="bosch_card_name">
+                <a href="#">
+                  <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 3000</h4>
+                </a>
+              </div>
+              <div class="bosch_card_prise">
+                <p>22500 Р.</p>
+              </div>
+              <div class="bosch_card_sale">
+                <p>15500 Р.</p>
+              </div>
+            </section>
+            <section class="bosch_card bosch_card_catalog ">
+              <div class="bosch_card_img">
+                <a href="#"><img src="img/picture/6000.jpg" alt="Перфоратор BOSCH BFG 6000"></a>
+              </div>
+              <div class="new_1">
+                <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+              </div>
+              <div class="bosch_card_link">
+                <a href="#" class="bosch_card_btn_buy buy_5"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
+                    <circle cx="4.5" cy="13.5" r="1.5" />
+                    <circle cx="12.5" cy="13.5" r="1.5" />
+                    <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+                  </svg>КУПИТЬ</a>
+                <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
+              </div>
+              <div class="bosch_card_name">
+                <a href="#">
+                  <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 6000</h4>
+                </a>
+              </div>
+              <div class="bosch_card_prise">
+                <p>30500 Р.</p>
+              </div>
+              <div class="bosch_card_sale">
+                <p>25500 Р.</p>
+              </div>
+            </section>
+            <section class="bosch_card bosch_card_catalog ">
+              <div class="bosch_card_img">
+                <a href="#"><img src="img/picture/2000.jpg" alt="Перфоратор BOSCH BFG 2000"></a>
+              </div>
+              <div class="new_1 new">
+                <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+              </div>
+              <div class="bosch_card_link">
+                <a href="#" class="bosch_card_btn_buy buy_6"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
+                    <circle cx="4.5" cy="13.5" r="1.5" />
+                    <circle cx="12.5" cy="13.5" r="1.5" />
+                    <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+                  </svg>КУПИТЬ</a>
+                <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
+              </div>
+              <div class="bosch_card_name">
+                <a href="#">
+                  <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 2000</h4>
+                </a>
+              </div>
+              <div class="bosch_card_sale">
+                <p>12500 Р.</p>
+              </div>
+            </section>
+            <section class="bosch_card bosch_card_catalog ">
+              <div class="bosch_card_img">
+                <a href="#"><img src="img/picture/3000.jpg" alt="Перфоратор BOSCH BFG 3000"></a>
+              </div>
+              <div class="new_1">
+                <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+              </div>
+              <div class="bosch_card_link">
+                <a href="#" class="bosch_card_btn_buy buy_7"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
+                    <circle cx="4.5" cy="13.5" r="1.5" />
+                    <circle cx="12.5" cy="13.5" r="1.5" />
+                    <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+                  </svg>КУПИТЬ</a>
+                <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
+              </div>
+              <div class="bosch_card_name">
+                <a href="#">
+                  <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 3000</h4>
+                </a>
+              </div>
+              <div class="bosch_card_prise">
+                <p>22500 Р.</p>
+              </div>
+              <div class="bosch_card_sale">
+                <p>15500 Р.</p>
+              </div>
+            </section>
+            <section class="bosch_card bosch_card_catalog ">
+              <div class="bosch_card_img">
+                <a href="#"><img src="img/picture/6000.jpg" alt="Перфоратор BOSCH BFG 6000"></a>
+              </div>
+              <div class="new_1">
+                <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+              </div>
+              <div class="bosch_card_link">
+                <a href="#" class="bosch_card_btn_buy buy_8"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
+                    <circle cx="4.5" cy="13.5" r="1.5" />
+                    <circle cx="12.5" cy="13.5" r="1.5" />
+                    <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+                  </svg>КУПИТЬ</a>
+                <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
+              </div>
+              <div class="bosch_card_name">
+                <a href="#">
+                  <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 6000</h4>
+                </a>
+              </div>
+              <div class="bosch_card_prise">
+                <p>30500 Р.</p>
+              </div>
+              <div class="bosch_card_sale">
+                <p>25500 Р.</p>
+              </div>
+            </section>
+            <section class="bosch_card bosch_card_catalog ">
+              <div class="bosch_card_img">
+                <a href="#"><img src="img/picture/2000.jpg" alt="Перфоратор BOSCH BFG 2000"></a>
+              </div>
+              <div class="new_1 new">
+                <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
+              </div>
+              <div class="bosch_card_link">
+                <a href="#" class="bosch_card_btn_buy buy_9"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
+                    <circle cx="4.5" cy="13.5" r="1.5" />
+                    <circle cx="12.5" cy="13.5" r="1.5" />
+                    <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+                  </svg>КУПИТЬ</a>
+                <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
+              </div>
+              <div class="bosch_card_name">
+                <a href="#">
+                  <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 2000</h4>
+                </a>
+              </div>
+              <div class="bosch_card_sale">
+                <p>12500 Р.</p>
+              </div>
+            </section>
+            <div class="bot_nav">
+              <a href="#" class="bot_nav_btn btn_active">1</a>
+              <a href="#" class="bot_nav_btn">2</a>
+              <a href="#" class="bot_nav_btn">3</a>
+              <a href="#" class="bot_nav_btn_next">СЛЕДУЮЩАЯ</a>
             </div>
           </section>
-          <section class="bosch_card bosch_card_catalog ">
-            <div class="bosch_card_img">
-              <a href="#"><img src="img/picture/6000.jpg" alt="Перфоратор BOSCH BFG 6000"></a>
-            </div>
-            <div class="new_1">
-              <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
-            </div>
-            <div class="bosch_card_link">
-              <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
-                  <circle cx="4.5" cy="13.5" r="1.5" />
-                  <circle cx="12.5" cy="13.5" r="1.5" />
-                  <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
-                </svg>КУПИТЬ</a>
-              <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
-            </div>
-            <div class="bosch_card_name">
-              <a href="#">
-                <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 6000</h4>
-              </a>
-            </div>
-            <div class="bosch_card_prise">
-              <p>30500 Р.</p>
-            </div>
-            <div class="bosch_card_sale">
-              <p>25500 Р.</p>
-            </div>
-          </section>
-          <section class="bosch_card bosch_card_catalog ">
-            <div class="bosch_card_img">
-              <a href="#"><img src="img/picture/2000.jpg" alt="Перфоратор BOSCH BFG 2000"></a>
-            </div>
-            <div class="new_1 new">
-              <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
-            </div>
-            <div class="bosch_card_link">
-              <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
-                  <circle cx="4.5" cy="13.5" r="1.5" />
-                  <circle cx="12.5" cy="13.5" r="1.5" />
-                  <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
-                </svg>КУПИТЬ</a>
-              <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
-            </div>
-            <div class="bosch_card_name">
-              <a href="#">
-                <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 2000</h4>
-              </a>
-            </div>
-            <div class="bosch_card_sale">
-              <p>12500 Р.</p>
-            </div>
-          </section>
-          <section class="bosch_card bosch_card_catalog ">
-            <div class="bosch_card_img">
-              <a href="#"><img src="img/picture/3000.jpg" alt="Перфоратор BOSCH BFG 3000"></a>
-            </div>
-            <div class="new_1">
-              <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
-            </div>
-            <div class="bosch_card_link">
-              <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
-                  <circle cx="4.5" cy="13.5" r="1.5" />
-                  <circle cx="12.5" cy="13.5" r="1.5" />
-                  <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
-                </svg>КУПИТЬ</a>
-              <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
-            </div>
-            <div class="bosch_card_name">
-              <a href="#">
-                <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 3000</h4>
-              </a>
-            </div>
-            <div class="bosch_card_prise">
-              <p>22500 Р.</p>
-            </div>
-            <div class="bosch_card_sale">
-              <p>15500 Р.</p>
-            </div>
-          </section>
-          <section class="bosch_card bosch_card_catalog ">
-            <div class="bosch_card_img">
-              <a href="#"><img src="img/picture/6000.jpg" alt="Перфоратор BOSCH BFG 6000"></a>
-            </div>
-            <div class="new_1">
-              <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
-            </div>
-            <div class="bosch_card_link">
-              <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
-                  <circle cx="4.5" cy="13.5" r="1.5" />
-                  <circle cx="12.5" cy="13.5" r="1.5" />
-                  <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
-                </svg>КУПИТЬ</a>
-              <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
-            </div>
-            <div class="bosch_card_name">
-              <a href="#">
-                <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 6000</h4>
-              </a>
-            </div>
-            <div class="bosch_card_prise">
-              <p>30500 Р.</p>
-            </div>
-            <div class="bosch_card_sale">
-              <p>25500 Р.</p>
-            </div>
-          </section>
-          <section class="bosch_card bosch_card_catalog ">
-            <div class="bosch_card_img">
-              <a href="#"><img src="img/picture/2000.jpg" alt="Перфоратор BOSCH BFG 2000"></a>
-            </div>
-            <div class="new_1 new">
-              <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
-            </div>
-            <div class="bosch_card_link">
-              <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
-                  <circle cx="4.5" cy="13.5" r="1.5" />
-                  <circle cx="12.5" cy="13.5" r="1.5" />
-                  <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
-                </svg>КУПИТЬ</a>
-              <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
-            </div>
-            <div class="bosch_card_name">
-              <a href="#">
-                <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 2000</h4>
-              </a>
-            </div>
-            <div class="bosch_card_sale">
-              <p>12500 Р.</p>
-            </div>
-          </section>
-          <section class="bosch_card bosch_card_catalog ">
-            <div class="bosch_card_img">
-              <a href="#"><img src="img/picture/3000.jpg" alt="Перфоратор BOSCH BFG 3000"></a>
-            </div>
-            <div class="new_1">
-              <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
-            </div>
-            <div class="bosch_card_link">
-              <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
-                  <circle cx="4.5" cy="13.5" r="1.5" />
-                  <circle cx="12.5" cy="13.5" r="1.5" />
-                  <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
-                </svg>КУПИТЬ</a>
-              <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
-            </div>
-            <div class="bosch_card_name">
-              <a href="#">
-                <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 3000</h4>
-              </a>
-            </div>
-            <div class="bosch_card_prise">
-              <p>22500 Р.</p>
-            </div>
-            <div class="bosch_card_sale">
-              <p>15500 Р.</p>
-            </div>
-          </section>
-          <section class="bosch_card bosch_card_catalog ">
-            <div class="bosch_card_img">
-              <a href="#"><img src="img/picture/6000.jpg" alt="Перфоратор BOSCH BFG 6000"></a>
-            </div>
-            <div class="new_1">
-              <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
-            </div>
-            <div class="bosch_card_link">
-              <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
-                  <circle cx="4.5" cy="13.5" r="1.5" />
-                  <circle cx="12.5" cy="13.5" r="1.5" />
-                  <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
-                </svg>КУПИТЬ</a>
-              <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
-            </div>
-            <div class="bosch_card_name">
-              <a href="#">
-                <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 6000</h4>
-              </a>
-            </div>
-            <div class="bosch_card_prise">
-              <p>30500 Р.</p>
-            </div>
-            <div class="bosch_card_sale">
-              <p>25500 Р.</p>
-            </div>
-          </section>
-          <section class="bosch_card bosch_card_catalog ">
-            <div class="bosch_card_img">
-              <a href="#"><img src="img/picture/2000.jpg" alt="Перфоратор BOSCH BFG 2000"></a>
-            </div>
-            <div class="new_1 new">
-              <img src="img/icon/new-flag.png" alt="Значек Новой Товар">
-            </div>
-            <div class="bosch_card_link">
-              <a href="#" class="bosch_card_btn_buy"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="header_menu_img bosch_card_link_img">
-                  <circle cx="4.5" cy="13.5" r="1.5" />
-                  <circle cx="12.5" cy="13.5" r="1.5" />
-                  <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
-                </svg>КУПИТЬ</a>
-              <a href="#" class="bosch_card_btn_mark">В ЗАКЛАДКИ</a>
-            </div>
-            <div class="bosch_card_name">
-              <a href="#">
-                <h4 class="bosch_card_name_text">Перфоратор BOSCH BFG 2000</h4>
-              </a>
-            </div>
-            <div class="bosch_card_sale">
-              <p>12500 Р.</p>
-            </div>
-          </section>
-          <div class="bot_nav">
-            <a href="#" class="bot_nav_btn btn_active">1</a>
-            <a href="#" class="bot_nav_btn">2</a>
-            <a href="#" class="bot_nav_btn">3</a>
-            <a href="#" class="bot_nav_btn_next">СЛЕДУЮЩАЯ</a>
-          </div>
-        </section>
         </div>
       </section>
     </div>
@@ -466,15 +470,16 @@
       </section>
     </div>
   </footer>
-  <section class="feedback_window">
+  <section class="feedback_window buy_winodw">
     <h2 class="visually-hidden">Товар выбран</h2>
     <h3 class="add_h3">Товар добавлен в корзину!</h3>
     <div class="add_btn_all">
-        <a href="#" class=" add_btn add_btn_1">ОФОРМИТЬ ЗАКАЗ</a>
-    <a href="#" class=" add_btn add_btn_2">ПРОДОЛЖИТЬ ПОКУПКИ</a>
+      <a href="#" class=" add_btn add_btn_1">ОФОРМИТЬ ЗАКАЗ</a>
+      <a href="#" class=" add_btn add_btn_2">ПРОДОЛЖИТЬ ПОКУПКИ</a>
     </div>
     <button type="button" name="close" class="feedback_btn_close"><img src="img/icon/form-close.svg" alt="Закрыть"></button>
   </section>
 </body>
+<script src="js/jspopup2.js"></script>
 
 </html>
