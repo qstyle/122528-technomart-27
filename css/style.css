@@ -2256,6 +2256,10 @@ padding-bottom: 37px;
   border: none;
   fill:#ee3643;
 }
+.filter_active:hover{
+  color:#ee3643;
+  border: none;
+}
 
 .prise_edit {
   display: -webkit-box;
