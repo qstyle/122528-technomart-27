@@ -1474,7 +1474,6 @@ img {
 }
 
 
-
 .service_slider_1{
   display: none;
 }
@@ -2128,7 +2127,9 @@ padding-bottom: 37px;
   margin-right: 0px;
 }
 
-
+.checkbox svg{
+  fill: red;
+}
 
 .catalog_checkbox {
   display: -webkit-box;
@@ -2196,6 +2197,7 @@ padding-bottom: 37px;
 
 }
 
+
 .filter_link {
   font-family: 'PT sans', sans-serif;
   font-size: 13px;
@@ -2203,6 +2205,8 @@ padding-bottom: 37px;
   color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px dotted #ee3643;
 }
+
+
 
 .filter_link_1 {
   margin-left: 139px;
@@ -2246,6 +2250,11 @@ padding-bottom: 37px;
 
 .filter_link_img:active {
   fill: #ee3643;
+}
+.filter_active{
+  color:#ee3643;
+  border: none;
+  fill:#ee3643;
 }
 
 .prise_edit {
