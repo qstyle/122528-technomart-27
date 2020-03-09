@@ -596,6 +596,7 @@ img {
 
 .btn_login_img_2 {
   fill: #c5c5c5;
+  flex-shrink: 0;
 }
 
 .btn_login_2:active .btn_login_img_2 {
@@ -1907,9 +1908,11 @@ padding-bottom: 37px;
     line-height: 1.29;
       color: #000000;
       background-color: white;
+      border-radius: 3px;
 }
 .add_btn_1{
   margin-right: 20px;
+  border-radius: 3px;
 }
 .add_btn:hover{
   background-color: #ee3643;
