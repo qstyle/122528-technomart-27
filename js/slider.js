@@ -6,11 +6,11 @@ const radioLeft = document.querySelector('.slider_nav_but_left')
 const radioRight = document.querySelector('.slider_nav_but_right')
 const radioPointL = document.querySelector('.slider_nav_but_point_left')
 const radioPointR = document.querySelector('.slider_nav_but_point_right')
-sliderRight.addEventListener('click', function(evt) {
+sliderRight.addEventListener('click', function (evt) {
   evt.preventDefault;
   baner1.classList.toggle('modal_on');
 });
-sliderRight.addEventListener('click', function(evt) {
+sliderRight.addEventListener('click', function (evt) {
   evt.preventDefault();
   baner2.classList.toggle('modal_on');
   if (baner1.classList.contains('modal_on')) {
@@ -24,11 +24,11 @@ sliderRight.addEventListener('click', function(evt) {
     radioPointR.classList.remove('modal_on');
   }
 });
-sliderLeft.addEventListener('click', function(evt) {
+sliderLeft.addEventListener('click', function (evt) {
   evt.preventDefault();
   baner1.classList.toggle('modal_on');
 });
-sliderLeft.addEventListener('click', function(evt) {
+sliderLeft.addEventListener('click', function (evt) {
   evt.preventDefault();
   baner2.classList.toggle('modal_on');
   if (baner1.classList.contains('modal_on')) {
@@ -42,7 +42,7 @@ sliderLeft.addEventListener('click', function(evt) {
     radioPointR.classList.remove('modal_on');
   }
 });
-radioLeft.addEventListener('click', function(evt) {
+radioLeft.addEventListener('click', function (evt) {
   evt.preventDefault();
   baner1.classList.add('modal_on');
   baner2.classList.remove('modal_on');
@@ -57,7 +57,7 @@ radioLeft.addEventListener('click', function(evt) {
     radioPointR.classList.remove('modal_on');
   }
 });
-radioRight.addEventListener('click', function(evt) {
+radioRight.addEventListener('click', function (evt) {
   evt.preventDefault();
   baner2.classList.add('modal_on');
   baner1.classList.remove('modal_on');

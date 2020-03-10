@@ -23,11 +23,3 @@ window.addEventListener('keydown', function (evt) {
     }
   }
 });
-form.addEventListener('submit', function(evt){
-  if (!name.value || !email.value || !text.value){
-    evt.preventDefault();
-  }
-  
-
-});
-
