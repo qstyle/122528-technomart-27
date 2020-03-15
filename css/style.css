@@ -385,6 +385,7 @@ img {
 }
 
 .nav_menu {
+  display: block;
   text-decoration: none;
   color: white;
   padding-top: 20px;
@@ -2190,7 +2191,6 @@ img {
   letter-spacing: normal;
   text-align: left;
   color: #a9a9a9;
-}
 }
 
 .catalog_checkbox {
