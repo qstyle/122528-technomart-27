@@ -2,10 +2,10 @@ const sliderRight = document.querySelector('.slider_right');
 const sliderLeft = document.querySelector('.slider_left');
 const baner1 = document.querySelector('.banner_1');
 const baner2 = document.querySelector('.banner_2');
-const radioLeft = document.querySelector('.slider_nav_but_left')
-const radioRight = document.querySelector('.slider_nav_but_right')
-const radioPointL = document.querySelector('.slider_nav_but_point_left')
-const radioPointR = document.querySelector('.slider_nav_but_point_right')
+const radioLeft = document.querySelector('.slider_nav_but_left');
+const radioRight = document.querySelector('.slider_nav_but_right');
+const radioPointL = document.querySelector('.slider_nav_but_point_left');
+const radioPointR = document.querySelector('.slider_nav_but_point_right');
 sliderRight.addEventListener('click', function (evt) {
   evt.preventDefault;
   baner1.classList.toggle('modal_on');

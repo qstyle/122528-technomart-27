@@ -600,7 +600,7 @@ img {
 }
 
 .btn_login_2:active .btn_login_img_2 {
-  color: rgba(0, 0, 0, 0.3);
+  fill: rgba(0, 0, 0, 0.3);
 }
 
 .btn_login:active {
@@ -650,8 +650,8 @@ img {
 }
 
 .img_nm {
-  padding-left: 15px;
-  padding-right: 40px;
+  margin-left: 15px;
+  margin-right: 40px;
 }
 
 .header_address {
@@ -674,8 +674,8 @@ img {
   -ms-flex-align: start;
   align-items: flex-start;
   min-height: 450px;
-  margin-bottom: 85px;
-  padding-top: 75px;
+  margin-bottom: 82px;
+  padding-top: 80px;
 }
 
 .text_bot_1 {
@@ -956,7 +956,7 @@ img {
 }
 
 .cards {
-  margin-bottom: 53px;
+  margin-bottom: 57px;
 }
 
 .popular {
@@ -1054,7 +1054,7 @@ img {
   -ms-flex-align: center;
   align-items: center;
   min-height: 89px;
-  margin-top: -5px;
+  margin-top: -3px;
   background-color: #f9f5f0;
   padding-left: 30px;
   padding-right: 24px;
@@ -1092,6 +1092,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
@@ -1103,6 +1104,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -1285,6 +1287,10 @@ img {
   text-decoration: none;
 }
 
+.bosch_cacrd_sale_text {
+  background-color: #ee3643;
+}
+
 .all_brend {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1407,6 +1413,12 @@ img {
 }
 
 .slider_nav_1:hover {
+  background-color: #293449;
+  color: white;
+  border: none;
+}
+
+.slider_nav_1_active {
   background-color: white;
   color: #32425c;
   border: none;
@@ -1415,7 +1427,18 @@ img {
 .slider_nav_1:active {
   background-color: white;
   color: #32425c;
+  border: none;
 }
+
+.slider_nav_1_active:hover {
+  background-color: white;
+  color: #32425c;
+  border: none;
+}
+
+
+
+
 
 .service_text_h2 {
   display: block;
@@ -1435,7 +1458,7 @@ img {
 }
 
 .service_text {
-  margin-top: 60px;
+  margin-top: 67px;
 }
 
 .service_slider_text {
@@ -1448,9 +1471,24 @@ img {
   z-index: 2;
 }
 
+.service_slider_text_2 {
+  width: 379px;
+  display: block;
+  font-family: 'PT sans', sans-serif;
+  font-size: 13px;
+  margin-top: 25px;
+  line-height: 1.85;
+
+  margin-top: 20px;
+  min-height: 1px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
 .service_slider {
   margin-left: 80px;
-  margin-top: -20px;
+  margin-top: 0px;
 }
 
 .service_slider_h2 {
@@ -2024,7 +2062,7 @@ img {
   top: 9px;
   right: 6px;
   border: none;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0)
 }
 
 .feedback_window_show {
@@ -2105,6 +2143,7 @@ img {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
+  margin-bottom: 16px;
 }
 
 .catalog {
@@ -2134,11 +2173,23 @@ img {
   -ms-flex-flow: row wrap;
 }
 
-.bosch_card:nth-child(3n) {
+.bosch_card_catalog:nth-child(3n) {
   margin-right: 0px;
 }
 
+.bosch_card_index:nth-child(4n) {
+  margin-right: 0px;
+}
 
+.feedback_mail_text_area::placeholder {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a9a9a9;
+}
+}
 
 .catalog_checkbox {
   display: -webkit-box;
@@ -2205,7 +2256,7 @@ img {
   color: #000000;
   background-color: #f7f3ec;
   padding-left: 14px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 
 }
 
@@ -2329,7 +2380,7 @@ img {
 
 .catalog_brend {
   margin-top: -5px;
-  margin-left: -15px;
+  margin-left: -2px;
 }
 
 .prise_h2 {
@@ -2367,7 +2418,7 @@ img {
 .main_bot {
   width: 100%;
   background-color: #f4f7f9;
-  padding-top: 38px;
+  padding-top: 36px;
   padding-bottom: 63px;
 }
 
@@ -2475,7 +2526,7 @@ img {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 
 .prise_input_input {
@@ -2540,22 +2591,15 @@ img {
   margin-bottom: 17px;
 }
 
-.checkbox input[type=checkbox] {
-  display: none;
-}
-
-.checkbox:disabled {
-  opacity: 0.4;
-}
 
 .icon-checkbox {
-  color: #c5c5c5;
+  fill: #c5c5c5;
   width: 27px;
   display: flex;
 }
 
 .checkbox:hover .icon-checkbox {
-  color: #b5b5b5;
+  fill: #b5b5b5;
 }
 
 .checkbox-wrap {
@@ -2577,11 +2621,22 @@ img {
 
 .checkbox-input:checked~.icon-on {
   display: flex;
+
+}
+
+.checkbox-input:disabled~.icon-checkbox {
+  opacity: 0.4;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.checkbox-input:disabled~.icon-checkbox_text {
+  opacity: 0.4;
 }
 
 
-.checkbox input[type=radio] {
-  display: none;
+
+.checkbox-input:focus~.icon-checkbox_text {
+  outline: rgb(77, 144, 254) auto 1px;
 }
 
 
@@ -2606,6 +2661,26 @@ img {
   background-color: #ffffff;
   font-family: 'PT sans', sans-serif;
   font-size: 13px;
+}
+
+.modal_map {
+
+  display: flex;
+  width: 940px;
+  height: 466px;
+
+  background-color: grey;
+  background-image: url(../img/picture/mapmodal.jpg);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  display: none;
+
+
+
 }
 
 .modal_on {

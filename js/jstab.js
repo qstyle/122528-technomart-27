@@ -9,16 +9,25 @@ linktab1.addEventListener('click', function (evt) {
   tab1.classList.add('modal_on');
   tab2.classList.remove('modal_on');
   tab3.classList.remove('modal_on');
+  linktab1.classList.add('slider_nav_1_active');
+  linktab2.classList.remove('slider_nav_1_active');
+  linktab3.classList.remove('slider_nav_1_active');
 });
 linktab2.addEventListener('click', function (evt) {
   evt.preventDefault();
   tab1.classList.remove('modal_on');
   tab2.classList.add('modal_on');
   tab3.classList.remove('modal_on');
+  linktab1.classList.remove('slider_nav_1_active');
+  linktab2.classList.add('slider_nav_1_active');
+  linktab3.classList.remove('slider_nav_1_active');
 });
 linktab3.addEventListener('click', function (evt) {
   evt.preventDefault();
   tab1.classList.remove('modal_on');
   tab2.classList.remove('modal_on');
   tab3.classList.add('modal_on');
+  linktab1.classList.remove('slider_nav_1_active');
+  linktab2.classList.remove('slider_nav_1_active');
+  linktab3.classList.add('slider_nav_1_active');
 });

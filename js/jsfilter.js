@@ -1,8 +1,8 @@
-const filterLink1 = document.querySelector('.filter_link_1')
-const filterLink2 = document.querySelector('.filter_link_2')
-const filterLink3 = document.querySelector('.filter_link_3')
-const filterLink4 = document.querySelector('.filter_link_4')
-const filterLink5 = document.querySelector('.filter_link_5')
+const filterLink1 = document.querySelector('.filter_link_1');
+const filterLink2 = document.querySelector('.filter_link_2');
+const filterLink3 = document.querySelector('.filter_link_3');
+const filterLink4 = document.querySelector('.filter_link_4');
+const filterLink5 = document.querySelector('.filter_link_5');
 filterLink1.addEventListener('click', function (evt) {
   evt.preventDefault();
   filterLink1.classList.toggle('filter_active');
