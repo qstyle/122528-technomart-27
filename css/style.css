@@ -361,42 +361,64 @@ img {
   color: white;
 }
 
-
 .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   list-style: none;
-  padding: 0px;
-  border: 0px;
-  margin: 0px;
-  margin-top: -10px;
+  padding-left: 0;
   margin-bottom: 60px;
-  background-color: #32425c;
-  width: 940px;
-  height: 60px;
-  -webkit-box-shadow: inset 0px -5px 0 0 #293449;
-  box-shadow: inset 0px -5px 0 0 #293449;
 }
 
 .nav_menu {
-  display: block;
-  text-decoration: none;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 32px;
-  padding-right: 32px;
+  display: flex;
   background-color: #32425c;
-  -webkit-box-shadow: inset 0px -5px 0 0 #293449;
-  box-shadow: inset 0px -5px 0 0 #293449;
+  list-style: none;
+  text-decoration: none;
+  padding-top: 21px;
+  padding-bottom: 22px;
   font-family: 'Cuprum', sans-serif;
   font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  color: white;
+  box-shadow: inset 0px -5px 0 0 #293449;
+
+}
+
+.nav_menu_1 {
+  padding-left: 52px;
+  padding-right: 31px;
+}
+
+.nav_menu_2 {
+  padding-left: 33px;
+  padding-right: 30px;
+}
+
+.nav_menu_3 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nav_menu_4 {
+  padding-left: 30px;
+  padding-right: 29px;
+}
+
+.nav_menu_5 {
+  padding-left: 30px;
+  padding-right: 31px;
+}
+
+.nav_menu_6 {
+  padding-left: 31px;
+  padding-right: 32px;
+}
+
+.nav_menu_7 {
+  padding-left: 32px;
+  padding-right: 55px;
 }
 
 .nav_menu:hover {
@@ -418,7 +440,7 @@ img {
   -ms-flex-pack: end;
   justify-content: flex-end;
   margin-top: 47px;
-  margin-bottom: 49px;
+  margin-bottom: 25px;
 }
 
 .header-text {
@@ -535,24 +557,13 @@ img {
 }
 
 .btn_login_2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  padding-left: 13px;
-  padding-right: 10px;
   background-color: white;
-  color: black;
-  text-decoration: none;
-  font-size: 21px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   margin-top: -7px;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
+
+
 
 .btn_login_img {
   margin: 14px;
@@ -576,12 +587,6 @@ img {
   margin-left: 25px;
 }
 
-.btn_login_text_3 {
-  margin-right: 38px;
-  margin-left: 14px;
-  margin-top: 14px;
-  margin-bottom: 11px;
-}
 
 .btn_login:hover {
   color: #ee3643;
@@ -609,6 +614,10 @@ img {
 }
 
 .btn_login_2:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.btn_login_2:active .btn_login_text_3 {
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -923,7 +932,6 @@ img {
   width: 10px;
   height: 10px;
   background-color: #fff;
-  display: inline-block;
   border-radius: 50%;
   position: absolute;
   left: 47.6%;
@@ -934,7 +942,6 @@ img {
   width: 10px;
   height: 10px;
   background-color: #fff;
-  display: inline-block;
   border-radius: 50%;
   position: absolute;
   left: 51.1%;
@@ -1051,10 +1058,12 @@ img {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 89px;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  min-height: 89px;
+  margin-top: 25px;
+  padding-top: 25px;
 
   margin-top: -3px;
   background-color: #f9f5f0;
@@ -1072,7 +1081,7 @@ img {
   font-size: 30px;
   color: #32425c;
   font-weight: normal;
-  margin-top: 25px;
+  margin-top: 0px;
   margin-bottom: 25px;
 }
 
@@ -1122,7 +1131,7 @@ img {
   border: solid 1px #eaeaea;
   font-family: 'PT sans', sans-serif;
   margin-right: 20px;
-  z-index: 1px;
+  z-index: 1;
 }
 
 .bosch_card:last-child {
@@ -2009,6 +2018,9 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 13px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.38;
 }
 
 .feedback_mail_text_area {
@@ -2019,6 +2031,9 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 13px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.38;
 }
 
 .feedback_submit_area {
@@ -2182,15 +2197,6 @@ img {
 
 .bosch_card_index:nth-child(4n) {
   margin-right: 0px;
-}
-
-.feedback_mail_text_area::placeholder {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 13px;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #a9a9a9;
 }
 
 .catalog_checkbox {
@@ -2489,8 +2495,36 @@ img {
   font-family: 'PT sans', sans-serif;
   font-size: 13px;
   line-height: 1.38;
+  background-color: white;
 }
 
+.login_link {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 13px;
+  padding-top: 11px;
+  padding-right: 10px;
+  padding-bottom: 13px;
+  text-decoration: none;
+}
+
+.btn_login_text_3 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: black;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.btn_login_img_3 {
+  margin-top: 2px;
+}
 
 
 .bot_nav_btn:hover {
@@ -2502,10 +2536,12 @@ img {
 }
 
 .bot_nav_btn:active {
-  border: 1px solid #ee3643;
+
+  border: 2px solid #ee3643;
 }
 
 .bot_nav_btn_next:active {
+  outline: none;
   border: 1px solid #ee3643;
 }
 
@@ -2670,7 +2706,6 @@ img {
   display: flex;
   width: 940px;
   height: 466px;
-
   background-color: grey;
   background-image: url(../img/picture/mapmodal.jpg);
   position: fixed;
@@ -2680,9 +2715,18 @@ img {
   transform: translate(-50%, -50%);
   z-index: 4;
   display: none;
+  box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
 
 
 
+}
+
+.window_modal_2 {
+  position: relative;
+  top: 0%;
+  transform: translate(-50%, 0%);
+  box-shadow: none;
+  border: 1px solid black;
 }
 
 .modal_on {
