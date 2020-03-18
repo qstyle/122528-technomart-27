@@ -2,7 +2,7 @@
 
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 body {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   background-color: white;
   margin: 0px;
 }
@@ -146,8 +146,8 @@ img {
   height: 17px;
   fill: white;
   position: absolute;
-  left: 17px;
-  top: 12px;
+  left: 18px;
+  top: 0px;
   opacity: 0.3;
 }
 
@@ -157,7 +157,7 @@ img {
   width: 270px;
   padding-left: 47px;
   border: none;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 17px;
   color: black;
   line-height: 1.06;
@@ -182,37 +182,37 @@ img {
 }
 
 .search_input::-webkit-input-placeholder {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 17px;
   color: white;
 }
 
 .search_input::-moz-placeholder {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 17px;
   color: white;
 }
 
 .search_input:-ms-input-placeholder {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 17px;
   color: white;
 }
 
 .search_input::-ms-input-placeholder {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 17px;
   color: white;
 }
 
 .search_input::placeholder {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 17px;
   color: white;
 }
 
 .search_input:-ms-input-placeholder {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 17px;
   color: white;
 }
@@ -271,6 +271,11 @@ img {
 
 .search_input:focus::-ms-input-placeholder {
   color: black;
+}
+
+.form_search {
+  position: relative;
+
 }
 
 .search_input:focus::placeholder {
@@ -375,7 +380,7 @@ img {
   text-decoration: none;
   padding-top: 21px;
   padding-bottom: 22px;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 17px;
   font-weight: normal;
   font-stretch: normal;
@@ -448,7 +453,7 @@ img {
   width: 197px;
   min-height: 60px;
   color: #ee3643;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -506,7 +511,7 @@ img {
 }
 
 .btn_login_cat a {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 16px;
   line-height: 1.13;
   color: #32425c;
@@ -665,7 +670,7 @@ img {
 }
 
 .header_address {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-style: normal;
   font-size: 14px;
   color: #32425c;
@@ -692,13 +697,13 @@ img {
   display: block;
   margin-top: 27px;
   line-height: 1.85;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   width: 519px;
 }
 
 .text_bot_2 {
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   line-height: 1.85;
   margin-top: 23px;
@@ -707,7 +712,7 @@ img {
 
 .h3_style {
   font-size: 30px;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   margin: 0px;
   line-height: 1;
   font-weight: normal;
@@ -768,7 +773,7 @@ img {
   text-decoration: none;
   color: white;
   background-color: rgba(0, 0, 0, 0.1);
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 14px;
   border-radius: 3px;
   margin-top: -14px;
@@ -840,7 +845,6 @@ img {
 .banner_1 {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   display: none;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -863,7 +867,6 @@ img {
 
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   display: none;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -883,7 +886,7 @@ img {
   top: 25px;
   left: 25px;
   color: white;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 36px;
   font-weight: bold;
   margin: 0px;
@@ -894,7 +897,7 @@ img {
   top: 64px;
   left: 25px;
   color: white;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 18px;
   font-weight: normal;
 }
@@ -1077,7 +1080,7 @@ img {
 
 .popular_h2 {
   margin: 0px;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 30px;
   color: #32425c;
   font-weight: normal;
@@ -1129,7 +1132,7 @@ img {
   width: 220px;
   min-height: 318px;
   border: solid 1px #eaeaea;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   margin-right: 20px;
   z-index: 1;
 }
@@ -1162,7 +1165,7 @@ img {
   -ms-flex-direction: column;
   flex-direction: column;
   font-size: 14px;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   display: none;
 }
 
@@ -1249,7 +1252,7 @@ img {
 
 .bosch_card_name_text {
   text-decoration: none;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -1266,7 +1269,7 @@ img {
 .bosch_card_prise {
   color: #a9a9a9;
   text-decoration: line-through;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 17px;
   font-weight: bold;
   margin-bottom: 8px;
@@ -1285,7 +1288,7 @@ img {
   align-items: center;
   width: 141px;
   height: 38px;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 17px;
   font-weight: bold;
   color: white;
@@ -1410,7 +1413,7 @@ img {
   text-decoration: none;
   list-style: none;
   color: #ffffff;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 21px;
   font-weight: bold;
   line-height: 1.43;
@@ -1453,7 +1456,7 @@ img {
 
 .service_text_h2 {
   display: block;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 30px;
   margin: 0px;
 }
@@ -1462,7 +1465,7 @@ img {
   display: block;
   width: 398px;
   min-height: 37px;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   margin-top: 25px;
   line-height: 1.85;
@@ -1485,7 +1488,7 @@ img {
 .service_slider_text_2 {
   width: 379px;
   display: block;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   margin-top: 25px;
   line-height: 1.85;
@@ -1503,21 +1506,21 @@ img {
 }
 
 .service_slider_h2 {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 36px;
   color: #32425c;
   margin: 0px;
 }
 
 .service_slider_text {
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   line-height: 1.85;
 }
 
 .slider_nav_1 a {
   text-decoration: none;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 21px;
   font-weight: bold;
   color: white;
@@ -1622,7 +1625,7 @@ img {
 }
 
 .text_bot_3 {
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   line-height: 1.85;
   margin-top: 27px;
@@ -1897,7 +1900,7 @@ img {
   background-color: white;
   width: 620px;
   height: auto;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 18px;
   -webkit-box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
   box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
@@ -1907,7 +1910,7 @@ img {
 
 .add_h3 {
   position: relative;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 30px;
   font-weight: normal;
   font-stretch: normal;
@@ -1957,7 +1960,7 @@ img {
   width: 220px;
   min-height: 38px;
   text-decoration: none;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 14px;
   font-weight: normal;
   line-height: 1.29;
@@ -2018,7 +2021,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 13px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   line-height: 1.38;
 }
@@ -2031,7 +2034,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 13px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   line-height: 1.38;
 }
@@ -2066,7 +2069,7 @@ img {
   align-items: center;
   width: 100%;
   background-color: #ee3643;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 14px;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -2110,7 +2113,7 @@ img {
 
 .breadcrumb_text {
   text-decoration: none;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   line-height: 1.38;
   color: #000000;
@@ -2152,7 +2155,7 @@ img {
 }
 
 .popular_h1 {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 30px;
   line-height: 1;
   background-color: #f2f6f8;
@@ -2241,7 +2244,7 @@ img {
 }
 
 .filter_h3 {
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -2258,7 +2261,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   line-height: 1.38;
   color: #000000;
@@ -2270,7 +2273,7 @@ img {
 
 
 .filter_link {
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.3);
@@ -2374,7 +2377,7 @@ img {
 }
 
 .catalog_h2 {
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 17px;
   font-weight: bold;
   font-stretch: normal;
@@ -2432,13 +2435,13 @@ img {
 }
 
 .main_bot_h3 {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 30px;
   line-height: 1;
 }
 
 .main_bot_text {
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -2471,7 +2474,7 @@ img {
   border-radius: 3px;
   text-decoration: none;
   color: black;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
 }
 
@@ -2493,7 +2496,7 @@ img {
   border-radius: 3px;
   text-decoration: none;
   color: black;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
   line-height: 1.38;
   background-color: white;
@@ -2510,7 +2513,7 @@ img {
 }
 
 .btn_login_text_3 {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'sans-serif';
   font-size: 21px;
   font-weight: normal;
   font-stretch: normal;
@@ -2576,7 +2579,7 @@ img {
   overflow: hidden;
   background-color: #f7f3ec;
   border: none;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 17px;
 }
 
@@ -2621,7 +2624,7 @@ img {
 }
 
 .checkbox {
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 15px;
   font-weight: normal;
   font-stretch: normal;
@@ -2680,7 +2683,7 @@ img {
 
 
 .radio_cat {
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 15px;
   font-weight: normal;
   font-stretch: normal;
@@ -2698,7 +2701,7 @@ img {
   min-height: 38px;
   border: solid 1px #e5e5e5;
   background-color: #ffffff;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'PT sans', 'sans-serif';
   font-size: 13px;
 }
 
