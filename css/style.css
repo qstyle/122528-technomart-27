@@ -2307,33 +2307,32 @@ img {
   color: #000000;
   border-bottom: 1px solid #ee3643;
   fill: #ee3643;
+}
+
+.filter_link_img:hover {
+  fill: rgba(0, 0, 0, 1);
+}
+
+.filter_link_img:active {
+  fill: #ee3643;
 
 }
 
 .filter_link:active {
   color: #ee3643;
-  border-bottom: none;
-  fill: #ee3643;
-}
-
-.filter_link_img:hover {
-  fill: rgba(0, 0, 0, 1);
-
-}
-
-.filter_link_img:active {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
   fill: #ee3643;
 }
 
 .filter_active {
   color: #ee3643;
-  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
   fill: #ee3643;
 }
 
 .filter_active:hover {
   color: #ee3643;
-  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
   fill: #ee3643;
 }
 
