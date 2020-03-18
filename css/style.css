@@ -2311,10 +2311,12 @@ img {
 
 .filter_link_img:hover {
   fill: rgba(0, 0, 0, 1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 .filter_link_img:active {
   fill: #ee3643;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 
 }
 
