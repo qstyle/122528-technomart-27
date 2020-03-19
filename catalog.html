@@ -77,20 +77,6 @@
             </svg>
           </a>
         </div>
-        <!-- <div href="#" class=" btn_login_2 ">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" class="btn_login_img_2">
-              <path
-                d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39S0 18 0 18h20s.025-3.099-2.119-3.834z" />
-            </svg>
-            <p class="btn_login_text_3">Равшан Джамшутович</p>
-            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17" class="btn_login_img_2">
-              <g>
-                <path d="M21 8.5L12.125 0v6h-6v5h6v6z" />
-                <path
-                  d="M3.106 13.952V3.048c.018-.376.171-1.057 1.01-1.057h5.027V0H4.116C1.938 0 1.112 1.81 1.087 3.027v10.946C1.112 15.189 1.938 17 4.116 17h5.027v-1.99H4.116c-.839 0-.992-.683-1.01-1.058z" />
-              </g>
-            </svg> -->
-
         <div class="btn_login_cat">
           <a href="#" class="btn_login_cat_txt">Мои заказы</a>
           <a href="#" class="btn_login_cat_txt_2">Личный кабинет</a>
@@ -123,7 +109,7 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main id="catalog_page">
     <div class="content">
       <nav aria-label="breadcrumb">
         <ul class="breadcrumb">
@@ -321,7 +307,7 @@
                   </label>
                 </div>
               </fieldset>
-              <button type="submit" value="ПОКАЗАТЬ" class="bot_nav_btn_next">ПОКАЗАТЬ</button>
+              <button type="submit" value="ПОКАЗАТЬ" class="bot_nav_btn_next input_submit">ПОКАЗАТЬ</button>
             </form>
           </aside>
         </div>
@@ -332,12 +318,14 @@
             <a href="#" class="filter_link filter_link_2">ПО ТИПУ</a>
             <a href="#" class="filter_link filter_link_3">ПО ФУНКЦИОНАЛУ</a>
             <a href="" class="filter_link_img filter_link_4">
+              <p class="visually-hidden">сортировка вверх</p>
               <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
                 <path d="M5.5 0L0 10h11z" />
               </svg>
             </a>
-            <a href="#" class="filter_link_img filter_link_5"><svg xmlns="http://www.w3.org/2000/svg" width="11"
-                height="10" viewBox="0 0 11 10">
+            <a href="#" class="filter_link_img filter_link_5">
+              <p class="visually-hidden">сортировка вниз</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
                 <path d="M5.5 10L0 0h11" />
               </svg>
             </a>
@@ -345,7 +333,7 @@
           <section class="catalog_cards">
             <section class="bosch_card bosch_card_catalog ">
               <div class="bosch_card_img">
-                <a href="#"><img src="img/picture/b3000.jpg" width="218" height="170"
+                <a href="#"><img src="img/picture/bosch3000.jpg" width="218" height="170"
                     alt="Перфоратор BOSCH BFG 3000"></a>
               </div>
               <div class="new_1">
@@ -374,7 +362,7 @@
             </section>
             <section class="bosch_card bosch_card_catalog ">
               <div class="bosch_card_img">
-                <a href="#"><img src="img/picture/b6000.jpg" width="218" height="170"
+                <a href="#"><img src="img/picture/bosch6000.jpg" width="218" height="170"
                     alt="Перфоратор BOSCH BFG 6000"></a>
               </div>
               <div class="new_1">
@@ -403,7 +391,7 @@
             </section>
             <section class="bosch_card bosch_card_catalog ">
               <div class="bosch_card_img">
-                <a href="#"><img src="img/picture/b2000.jpg" width="218" height="170"
+                <a href="#"><img src="img/picture/bosch2000.jpg" width="218" height="170"
                     alt="Перфоратор BOSCH BFG 2000"></a>
               </div>
               <div class="new_1 new">
@@ -429,7 +417,7 @@
             </section>
             <section class="bosch_card bosch_card_catalog ">
               <div class="bosch_card_img">
-                <a href="#"><img src="img/picture/b3000.jpg" width="218" height="170"
+                <a href="#"><img src="img/picture/bosch3000.jpg" width="218" height="170"
                     alt="Перфоратор BOSCH BFG 3000"></a>
               </div>
               <div class="new_1">
@@ -458,7 +446,7 @@
             </section>
             <section class="bosch_card bosch_card_catalog ">
               <div class="bosch_card_img">
-                <a href="#"><img src="img/picture/b6000.jpg" width="218" height="170"
+                <a href="#"><img src="img/picture/bosch6000.jpg" width="218" height="170"
                     alt="Перфоратор BOSCH BFG 6000"></a>
               </div>
               <div class="new_1">
@@ -487,7 +475,7 @@
             </section>
             <section class="bosch_card bosch_card_catalog ">
               <div class="bosch_card_img">
-                <a href="#"><img src="img/picture/b2000.jpg" width="218" height="170"
+                <a href="#"><img src="img/picture/bosch2000.jpg" width="218" height="170"
                     alt="Перфоратор BOSCH BFG 2000"></a>
               </div>
               <div class="new_1 new">
@@ -513,7 +501,7 @@
             </section>
             <section class="bosch_card bosch_card_catalog ">
               <div class="bosch_card_img">
-                <a href="#"><img src="img/picture/b3000.jpg" width="218" height="170"
+                <a href="#"><img src="img/picture/bosch3000.jpg" width="218" height="170"
                     alt="Перфоратор BOSCH BFG 3000"></a>
               </div>
               <div class="new_1">
@@ -542,7 +530,7 @@
             </section>
             <section class="bosch_card bosch_card_catalog ">
               <div class="bosch_card_img">
-                <a href="#"><img src="img/picture/b6000.jpg" width="218" height="170"
+                <a href="#"><img src="img/picture/bosch6000.jpg" width="218" height="170"
                     alt="Перфоратор BOSCH BFG 6000"></a>
               </div>
               <div class="new_1">
@@ -571,7 +559,7 @@
             </section>
             <section class="bosch_card bosch_card_catalog ">
               <div class="bosch_card_img">
-                <a href="#"><img src="img/picture/b2000.jpg" width="218" height="170"
+                <a href="#"><img src="img/picture/bosch2000.jpg" width="218" height="170"
                     alt="Перфоратор BOSCH BFG 2000"></a>
               </div>
               <div class="new_1 new">
@@ -649,10 +637,15 @@
         <h2 class="visually-hidden">Как с нами связаться</h2>
         <p class="company_inf">© 2010–2019 Компания «Техномарт» Все права защищены</p>
         <ul class="social_networks">
-          <li><a href="" class="socal_ic"><img src="img/icon/vk-icon.svg" width="26" height="15" alt="Вконтакте"></a>
+          <li><a href="" class="socal_ic">
+              <span class="visually-hidden">ссылка на Вконтакте</span>
+              <img src="img/icon/vk-icon.svg" width="26" height="15" alt="Вконтакте"></a>
           </li>
-          <li><a href="" class="socal_ic"><img src="img/icon/fb-icon.svg" width="12" height="22" alt="Фэйсбук"></a></li>
-          <li><a href="" class="socal_ic"><img src="img/icon/insta-icon.svg" width="21" height="21" alt="Инстаграм"></a>
+          <li><a href="" class="socal_ic">
+              <span class="visually-hidden">ссылка на Фэйсбук</span>
+              <img src="img/icon/fb-icon.svg" width="12" height="22" alt="Фэйсбук"></a></li>
+          <li><a href="" class="socal_ic"><span class="visually-hidden">ссылка на Инстаграм</span>
+              <img src="img/icon/insta-icon.svg" width="21" height="21" alt="Инстаграм"></a>
           </li>
         </ul>
         <div class="feedback">
@@ -676,7 +669,7 @@
     <button type="button" name="close" class="feedback_btn_close"><img src="img/icon/form-close.svg" width="21"
         height="21" alt="Закрыть"></button>
   </section>
-  <script src="js/jscatalog.js"></script>
+  <script src="js/scriptmini.js"></script>
 
 </body>
 
